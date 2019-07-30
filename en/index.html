@@ -1,0 +1,42 @@
+---
+layout: default
+current: home
+class: 'home-template'
+navigation: True
+lang: en
+---
+
+<!-- < default -->
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<!-- The big featured header, it uses blog cover image as a BG if available -->
+<header class="site-header outer no-cover">
+    <div class="inner">
+        <div class="site-header-content">
+            <h1 class="site-title">
+                {% if site.logo %}
+                <img class="site-logo" src="{{ site.logo }}" alt="{{ site.title }}" />
+                {% else %}
+                {{ site.title }}
+                {% endif %}
+            </h1>
+            <h1>{{ site.data.translations[page.lang]["main"]["title"] }}</h1>
+            <h2 class="site-description">{% if page.description %}{{ page.description }}{% else %}{{ site.data.translations[page.lang]["main"]["subtitle"] }}
+                {% endif %}</h2>
+        </div>
+        {% include site-nav.html %}
+    </div>
+</header>
+
+<!-- The main content area -->
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <div class="main-wrapper">
+            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
+            {% include partials/index-cards.html %}
+        </div>
+
+    </div>
+</main>

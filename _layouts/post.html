@@ -1,0 +1,187 @@
+---
+layout: default
+current: post
+class: post-template
+disqus: false
+---
+
+<!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        {% include site-nav.html %}
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full {{ page.subclass }} {% unless page.cover %}no-image{% endunless %}">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="{{ page.date | date:'%e %B %Y' }}">{{ page.date | jdate: "%A %d %b %Y" }}</time>
+                    {% if page.tags.size > 0 %}
+                        <span class="date-divider">/</span>
+                        {% for tag in page.tags %}
+                            {% if forloop.index == page.tags.size %}
+                               <a href='/tag/{{ tag | downcase | replace: ' ', '-' }}/'>{{ tag | upcase }}</a>
+                            {% else %}
+                               <a href='/tag/{{ tag | downcase | replace: ' ', '-' }}/'>{{ tag | upcase }}</a>,
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </section>
+                <h1 class="post-full-title">{{ page.title }}</h1>
+            </header>
+
+            {% if page.cover %}
+            <figure class="post-full-image" style="background-image: url({{ page.cover }})">
+            </figure>
+            {% endif %}
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    {{ content }}
+                </div>
+                {% if site.comments or page.comments %}
+                <section class="post-full-comments">
+                    <div id="google-comments"></div>
+                    <script src="https://apis.google.com/js/plusone.js"></script>
+  
+                    <div class="g-comments"
+                        data-href="{{site.url}}{{page.url}}"
+                        data-width="642"
+                        data-first_party_property="BLOGGER"
+                        data-view_type="FILTERED_POSTMOD">
+                    </div>
+                </section>
+            {% endif %}
+            </section>
+
+
+            <!-- Email subscribe form at the bottom of the page -->
+            {% if site.subscribers %}
+                <section class="subscribe-form">
+                    <h3 class="subscribe-form-title">به {{ site.title }} بپیوندید</h3>
+                    <p>از آخرین اخبار ما آگاه شوید!</p>
+                    {% include partials/subscribe-form.html placeholder="youremail@example.com" %}
+                </section>
+            {% endif %}
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                {% for author in site.data.authors %}
+                    {% if author[1].username == page.author %}
+                        <section class="author-card">
+                            {% if author[1].picture %}
+                                <img class="author-profile-image" src="{{ author[1].picture }}" alt="{{ page.author }}" />
+                            {% endif %}
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/author/{{ page.author }}">{{ author[1].name }}</a></h4>
+                                {% if author[1].bio %}
+                                    <p>{{ author[1].bio }}</p>
+                                {% else %}
+                                    <p>Read <a href="/author/{{ page.author }}">more posts</a> by this author.</p>
+                                {% endif %}
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/author/{{ page.author }}">بیشتر بخوانید</a>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+                <!-- /author  -->
+            </footer>
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            {% if page.tags.size > 0 %}
+                {% assign primary = page.tags | first %}
+                {% assign related_posts = 0 %}
+                {% for post in site.posts %}
+                  {% if post.tags.size > 0 %}
+                      {% if post.tags contains primary %}
+                        {% assign related_posts = related_posts | plus: 1 %}
+                      {% endif %}
+                  {% endif %}
+                {% endfor %}
+                {% if related_posts > 1 %}
+                    <article class="read-next-card"
+                        {% if site.cover %}
+                            style="background-image: url({{ site.cover }})"
+                        {% else %}
+                            {% if page.cover %}
+                                style="background-image: url(url({{ page.cover }})"{% endif %}
+                        {% endif %}
+                    >
+                        <header class="read-next-card-header">
+                            <small class="read-next-card-header-sitetitle">&mdash; {{ site.title }} &mdash;</small>
+                            {% if primary %}
+                                <h3 class="read-next-card-header-title"><a href="/tag/{{ primary | downcase | replace: ' ', '-' }}/">{{ primary | capitalize }}</a></h3>
+                            {% endif %}
+                        </header>
+                        <div class="read-next-divider">{% include svg/infinity.html %}</div>
+                        <div class="read-next-card-content">
+                            <ul>
+                                {% assign count = 0 %}
+                                {% for post in site.posts %}
+                                  {% if post.tags contains primary %}
+                                    {% if post.title != page.title %}
+                                        {% assign count = count | plus: 1 %}
+                                        {% if count <= 3 %}
+                                            <li><a href="{{ post.url   }}">{{ post.title }}</a></li>
+                                        {% endif %}
+                                    {% endif %}
+                                  {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        <footer class="read-next-card-footer">
+                            <a href="/tag/{{ primary | downcase | replace: ' ', '-' }}/">
+                                {% if related_posts > 1 %}
+                                    تمام {{ related_posts | minus: 1 }} مطلب را مشاهده کنید  →
+                                {% elsif related_posts == 1 %}
+                                    {{ related_posts }} مطلب  →
+                                {% else %}
+                                    مطلبی وجود ندارد.
+                                {% endif %}
+                            </a>
+                        </footer>
+                    </article>
+                {% endif %}
+            {% endif %}
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            {% if page.next %}
+                {% include partials/post-card-next.html %}
+            {% endif %}
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            {% if page.previous %}
+                {% include partials/post-card-previous.html %}
+            {% endif %}
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+{% include partials/floating-header.html %}
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->

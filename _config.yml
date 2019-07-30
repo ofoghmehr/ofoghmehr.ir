@@ -1,0 +1,239 @@
+# Jekyll configuration
+markdown: kramdown
+highlighter: rouge
+paginate: 100 # it will paginate after this numberr
+language: 'en-uk'
+timezone: Asia/Tehran
+# edit baseurl to simply '/' if using as your personal page (instead of a project page)
+baseurl: ""
+url: https://bineshafza.ir/
+
+# Website info
+title: Bahram Hossein
+description: English Teacher
+cover: /assets/images/site-header.jpg
+logo: /assets/images/blog-icon.svg
+logo_dark: /assets/images/blog-icon.svg
+favicon: /assets/images/favicon.ico
+production_url: https://bineshafza.github.io/
+source_url: https://github.com/bineshafza/bineshafza.github.io/
+CNAME: bineshafza.ir
+
+# Social info
+navigation: True # show the navbar links
+subscribers: True # you need to connect an external service for this to work,
+# if 'True' the submit button is disabled for now, but you can change that
+# by editing `_includes/subscribe-form.html`
+twitter: Cincinnatus1972 # replace by your username
+facebook: B.HakaB.H # replace by your username
+telegram: BahramHossein
+instagram: bahramhossein1972
+linkedin: bahram-hossein-019153166
+
+# Disqus
+disqus: False
+disqus_shortname: username # replace with your disqus username
+
+# Google Analytics
+google_analytics: "UA-125890391-1" # replace with your GA tracking identifier
+
+# Permalinks
+permalink: /:title
+# permalink: /author/:author
+# permalink: /tag/:tag
+
+# Authors' info in `_data/authors.yml`
+# Tags' info in `_data/tags_info.yml`
+
+# gems and other configs
+plugins_dir: [_plugins]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-jalali]
+
+feed:
+  path: feed.xml
+
+# Additional settings available on the front-matter
+# Site logo in the index.html (as in demo.ghost.io)
+# Author's page cover in _layouts/author.html
+# The same for page.html and tag.html layouts
+# Post's page cover as a per-post basis _posts/...
+# Disqus comments as a per-post basis
+# ...
+
+# Settings for builing master branch with travis-ci
+# with jekyll-travis
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV['GIT_NAME'] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to "source" for USERNAME.github.io
+# or "master" otherwise
+safe: False
+lsi: False
+username: bineshafza
+repo: bineshafza.github.io
+branch: dev
+#relative_source: ../fa/
+destination: _site
+port: 4002
+
+exclude:
+  - archive
+  - assets/css
+  - node_modules/
+  - vendor
+  - .travis.yml
+  - Gemfile
+  - Gemfile.lock
+  - GHOST.txt
+  - gulpfile.js
+  - LICENSE
+  - package.json
+  - Rakefile
+  - README.md
+  - script.py
+  - changelog.md
+  - "*.Rmd"
+  - .git*
+  - _image_optim_cache.yml
+
+defaults:
+# English
+  - scope:
+      path: "en/*"
+    values:
+      lang: "en"
+# Farsi
+  - scope:
+      path: "fa/*"
+    values:
+      lang: "fa"
+
+# News English
+  - scope:
+      path: "en/_posts/news"
+      type: posts
+    values:
+      class: post-template
+      navigation: True
+      layout: post
+      current: post
+      permalink: /en/news/:title
+      category: news
+      catname: News
+# News Farsi
+  - scope:
+      path: "fa/_posts/news"
+      type: posts
+    values:
+      class: post-template
+      navigation: True
+      layout: post
+      current: post
+      permalink: /fa/news/:title
+      category: news
+      catname: اخبار
+# Courses English
+  - scope:
+      path: "en/_posts/courses"
+      type: posts
+    values:
+      class: post-template
+      navigation: True
+      layout: post
+      current: post
+      permalink: /en/courses/:title
+      category: courses
+      catname: Courses
+# Courses Farsi
+  - scope:
+      path: "fa/_posts/courses"
+      type: posts
+    values:
+      class: post-template
+      navigation: True
+      layout: post
+      current: post
+      permalink: /fa/courses/:title
+      category: courses
+      catname: دوره‌ها
+# Articles English
+  - scope:
+      path: "en/_posts/writings"
+      type: posts
+    values:
+      class: post-template
+      navigation: True
+      layout: post
+      current: post
+      permalink: /en/articles/:title
+      category: articles
+      catname: Articles     
+# Articles Farsi
+  - scope:
+      path: "fa/_posts/writings"
+      type: posts
+    values:
+      class: post-template
+      navigation: True
+      layout: post
+      current: post
+      permalink: /fa/articles/:title
+      category: articles
+      catname: مقالات     
+# Blog English
+  - scope:
+      path: "en/_posts/blog"
+      type: posts
+    values:
+      class: post-template
+      navigation: True
+      layout: post
+      current: post
+      permalink: /en/blog/:title
+      category: blog
+      catname: Weblog
+# Blog Farsi
+  - scope:
+      path: "fa/_posts/blog"
+      type: posts
+    values:
+      class: post-template
+      navigation: True
+      layout: post
+      current: post
+      permalink: /fa/blog/:title
+      category: blog
+      catname: وبلاگ
+#Multimedia English
+  - scope:
+      path: "en/_posts/multimedia"
+      type: posts
+    values:
+     class: post-template
+     navigation: True
+     layout: post
+     current: post
+     permalink: /en/multimedia/:title
+     category: multimedia
+     catname: چند‌رسانه‌ای
+#Multimedia Farsi
+  - scope:
+      path: "fa/_posts/multimedia"
+      type: posts
+    values:
+     class: post-template
+     navigation: True
+     layout: post
+     current: post
+     permalink: /fa/multimedia/:title
+     category: multimedia
+     catname: چند‌رسانه‌ای
+
+
+image_optim:
+  archive_dir: "archive/files/"
+  cache_file: "_image_optim_cache.yml"
+  image_glob: "assets/images/**/**.{gif,png,jpg,jpeg}"

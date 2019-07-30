@@ -1,0 +1,21 @@
+@font-face {
+    font-family: BHTitle;
+    src: url('../fonts/Ordibehesht/Ordibehesht.ttf') format('truetype');
+    font-weight: bold;
+    unicode-range: U+0600—06FF;
+  }
+  @font-face {
+    font-family: BHTitle;
+    src: url('../fonts/Cinzel/Cinzel-Regular.ttf') format('truetype');
+    font-weight: bold;
+    unicode-range: U+0020-007F;
+  }
+  
+  @font-face {
+    font-family: Sahel;
+    src: url('../fonts/Sahel/Sahel.eot');
+    src: url('../fonts/Sahel/Sahel.eot') format('embedded-opentype'),
+         url('../fonts/Sahel/Sahel.woff') format('woff'),
+         url('../fonts/Sahel/Sahel.ttf') format('truetype');
+    font-weight: normal;
+  }

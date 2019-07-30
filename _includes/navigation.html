@@ -1,0 +1,25 @@
+<ul class="nav" role="menu">
+  <li class="nav-home" role="menuitem">
+    <a href="/{{page.lang}}"> {{ site.data.translations[page.lang]["menu"]["home"] }}</a>
+  </li>
+  <li class="nav-blog" role="menuitem">
+    <a href="/blog"> {{ site.data.translations[page.lang]["menu"]["blog"] }}</a>
+  </li>
+  <li class="nav-home" role="menuitem">
+    <a href="/courses">
+      {{ site.data.translations[page.lang]["menu"]["courses"] }}</a
+    >
+  </li>
+  <li class="nav-about" role="menuitem">
+    <a href="/about">
+      {{ site.data.translations[page.lang]["menu"]["contact"] }}</a
+    >
+  </li>
+  <li class="nav-lang" role="menuitem">
+    {%- if page.lang == "en" -%}
+    <a href="/fa/" data-no-instant>فارسی</a>
+    {%- elsif  page.lang == "fa" -%}
+    <a href="/en/" data-no-instant>English</a>
+    {%- endif -%}
+  </li>
+</ul>

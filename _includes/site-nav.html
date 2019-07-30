@@ -1,0 +1,38 @@
+<nav class="site-nav">
+  <div class="site-nav-left">
+    {% if page.current != 'home' %} {% if site.logo %}
+    <a class="site-nav-logo" href="{{ site.url }}"
+      ><img src="{{ site.logo }}" alt="{{ site.title }}"
+    /></a>
+    {% else %}
+    <a class="site-nav-logo" href="{{ site.url }}">{{ site.title }}</a>
+    {% endif %} {% endif %} {% if page.navigation %} {% include navigation.html
+    %} {% endif %}
+  </div>
+  <div class="site-nav-right">
+    <div class="social-links">
+      {% if site.instagram %}
+      <a
+        class="social-link social-link-in"
+        href="https://instagram.com/{{ site.instagram }}"
+        target="_blank"
+        rel="noopener"
+        >{% include svg/instagram.html %}</a
+      >
+      {% endif %} {% if site.telegram %}
+      <a
+        class="social-link social-link-tg"
+        href="https://telegram.me/{{ site.telegram }}"
+        target="_blank"
+        rel="noopener"
+        >{% include svg/telegram.html %}</a
+      >
+      {% endif %}
+    </div>
+    {% if site.subscribers %}
+    <a class="subscribe-button" href="#subscribe">{{
+      site.data.translations[page.lang]["menu"]["subscribe"]
+    }}</a>
+    {% endif %}
+  </div>
+</nav>

@@ -1,0 +1,32 @@
+bineshafza:
+  username: bineshafza
+  name: بینش افزا
+  url_full: http://jekyller.github.io/jasper2/
+  url: https://bineshafza.ir
+  bio: The professional publishing platform
+  picture: /assets/images/authors/ghost.png
+  facebook: ghost
+  twitter: tryghost
+  cover: False
+bahramhossein:
+  username: bahramhossein
+  name: بهرام حسین
+  location: تهران ایران
+  url_full: http://hannah.wf/
+  url: hannah.wf
+  bio: مدرس کلاس های مکالمه مفهمومی
+  picture: /assets/images/authors/bahramhossein.jpg
+  cover: /assets/images/authors/bahramhossein-cover.jpg
+  facebook: False
+  twitter: erisds
+omidroshandel:
+  username: omidroshandel
+  name: امید روشندل
+  location: تهران ایران
+  url_full: http://hannah.wf/
+  url: hannah.wf
+  bio: مدرس کلاس های آیلتس
+  picture: /assets/images/authors/omidroshandel.jpg
+  cover: /assets/images/authors/omidroshandel-cover.jpg
+  facebook: False
+  twitter: erisds

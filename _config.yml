@@ -9,26 +9,26 @@ baseurl: ""
 url: https://bineshafza.ir/
 
 # Website info
-title: Bahram Hossein
-description: English Teacher
+title: Ofogh Mehr
+description: English School
 cover: /assets/images/site-header.jpg
 logo: /assets/images/blog-icon.svg
 logo_dark: /assets/images/blog-icon.svg
 favicon: /assets/images/favicon.ico
-production_url: https://bineshafza.github.io/
-source_url: https://github.com/bineshafza/bineshafza.github.io/
-CNAME: bineshafza.ir
+production_url: https://ofoghmehr.ir/
+source_url: https://gitlab.com/mohsenkhanpour/ofoghmehr
+CNAME: ofoghmehr.ir
 
 # Social info
 navigation: True # show the navbar links
 subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: Cincinnatus1972 # replace by your username
-facebook: B.HakaB.H # replace by your username
-telegram: BahramHossein
-instagram: bahramhossein1972
-linkedin: bahram-hossein-019153166
+twitter: ofoghmehr # replace by your username
+facebook: ofoghmehr # replace by your username
+telegram: ofoghmehr
+instagram: ofoghmehr
+linkedin: ofoghmehr
 
 # Disqus
 disqus: False

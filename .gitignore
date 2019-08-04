@@ -1,16 +1,9 @@
-_site/
-.vscode/
+_site
 .sass-cache/
 archive/
 node_modules/
-.jekyll-metadata
-.favorites.json
-.nvmrc
-.DS_Store
 yarn-error.log
-shrinkwrap.yaml
 Gemfile.lock
 package-lock.json
 yarn.lock
-
 _image_optim_cache.yml

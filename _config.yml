@@ -6,7 +6,7 @@ language: 'en-uk'
 timezone: Asia/Tehran
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: ""
-url: https://bineshafza.ir/
+url: https://ofoghmehr.ir/
 
 # Website info
 title: Ofogh Mehr
@@ -15,24 +15,20 @@ cover: /assets/images/site-header.jpg
 logo: /assets/images/blog-icon.svg
 logo_dark: /assets/images/blog-icon.svg
 favicon: /assets/images/favicon.ico
-production_url: https://ofoghmehr.ir/
-source_url: https://gitlab.com/mohsenkhanpour/ofoghmehr
-CNAME: ofoghmehr.ir
+
 
 # Social info
 navigation: True # show the navbar links
 subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
+
 twitter: ofoghmehr # replace by your username
 facebook: ofoghmehr # replace by your username
 telegram: ofoghmehr
 instagram: ofoghmehr
 linkedin: ofoghmehr
 
-# Disqus
-disqus: False
-disqus_shortname: username # replace with your disqus username
 
 # Google Analytics
 google_analytics: "UA-125890391-1" # replace with your GA tracking identifier
@@ -57,25 +53,7 @@ feed:
 # Author's page cover in _layouts/author.html
 # The same for page.html and tag.html layouts
 # Post's page cover as a per-post basis _posts/...
-# Disqus comments as a per-post basis
-# ...
 
-# Settings for builing master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV['GIT_NAME'] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to "source" for USERNAME.github.io
-# or "master" otherwise
-safe: False
-lsi: False
-username: bineshafza
-repo: bineshafza.github.io
-branch: dev
-#relative_source: ../fa/
 destination: _site
 port: 4002
 
@@ -84,21 +62,23 @@ exclude:
   - assets/css
   - node_modules/
   - vendor
-  - .travis.yml
   - Gemfile
   - Gemfile.lock
   - GHOST.txt
   - gulpfile.js
   - LICENSE
   - package.json
-  - Rakefile
   - README.md
-  - script.py
   - changelog.md
-  - "*.Rmd"
   - .git*
   - _image_optim_cache.yml
 
+image_optim:
+  archive_dir: "archive/files/"
+  cache_file: "_image_optim_cache.yml"
+  image_glob: "assets/images/**/**.{gif,png,jpg,jpeg}"
+
+  
 defaults:
 # English
   - scope:
@@ -159,30 +139,7 @@ defaults:
       permalink: /fa/courses/:title
       category: courses
       catname: دوره‌ها
-# Articles English
-  - scope:
-      path: "en/_posts/writings"
-      type: posts
-    values:
-      class: post-template
-      navigation: True
-      layout: post
-      current: post
-      permalink: /en/articles/:title
-      category: articles
-      catname: Articles     
-# Articles Farsi
-  - scope:
-      path: "fa/_posts/writings"
-      type: posts
-    values:
-      class: post-template
-      navigation: True
-      layout: post
-      current: post
-      permalink: /fa/articles/:title
-      category: articles
-      catname: مقالات     
+      
 # Blog English
   - scope:
       path: "en/_posts/blog"
@@ -233,7 +190,3 @@ defaults:
      catname: چند‌رسانه‌ای
 
 
-image_optim:
-  archive_dir: "archive/files/"
-  cache_file: "_image_optim_cache.yml"
-  image_glob: "assets/images/**/**.{gif,png,jpg,jpeg}"

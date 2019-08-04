@@ -1,5 +1,5 @@
 ---
-author: ''
+author: 'bineshafza'
 layout: post
 title: My Small Acheivements
 date: 2019-06-01 00:00:00 +0330

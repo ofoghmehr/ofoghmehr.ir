@@ -174,7 +174,7 @@
     {{ site.data.translations[page.lang]["index"]["writings"] }}
   </h2>
   <div class="index-feed">
-    {% assign posts = site.posts | where: "tags", "Article" | where: "lang",
+    {% assign posts = site.posts | where: "tags", "Blog" | where: "lang",
     page.lang | sort:"date" | reverse %} {% for post in posts limit:1 %}
     <article
       class="indx-card {{

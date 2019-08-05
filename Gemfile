@@ -10,3 +10,4 @@ gem 'image_optim'
 gem 'image_optim_pack'
 gem "tzinfo"
 gem "tzinfo-data"
+gem 'jekyll-autoprefixer'

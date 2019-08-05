@@ -1,5 +1,5 @@
 
-        <svg xmlns="http://www.w3.org/2000/svg" width="2880" height="1800" viewBox="0 0 2880 1800">
+        <svg xmlns="http://www.w3.org/2000/svg" width="2880" height="1800" opacity="0.3" viewBox="0 0 2880 1800">
           <defs>
             <linearGradient id="overlay" x1="1" y1="0" x2="0" y2="1">
               <stop offset="0%" stop-color="#f3f2e7"/>

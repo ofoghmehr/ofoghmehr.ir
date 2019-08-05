@@ -3,11 +3,13 @@ module Jekyll
   class AuthorsGenerator < Generator
 
     safe true
-
+    
     def generate(site)
-      site.data['authors'].each do |author, data|
-        posts = [author, posts_by_author(site, author)]
-        build_subpages(site, 'author', posts)
+      site.data['translations'].each do |lang, data|
+        site.data['authors'].each do |author, data|
+          posts = [author, posts_by_author(site, author, lang), lang]
+          build_subpages(site, 'author', posts)
+        end
       end
     end
 
@@ -18,7 +20,7 @@ module Jekyll
     end
 
     def atomize(site, type, posts)
-      path = "/author/#{posts[0]}"
+      path = "/#{posts[2]}/author/#{posts[0]}"
       atom = AtomPageAuthor.new(site, site.source, path, type, posts[0], posts[1])
       site.pages << atom
     end
@@ -27,7 +29,7 @@ module Jekyll
       pages = Jekyll::Paginate::Pager.calculate_pages(posts[1], site.config['paginate'].to_i)
       (1..pages).each do |num_page|
         pager = Jekyll::Paginate::Pager.new(site, num_page, posts[1], pages)
-        path = "/author/#{posts[0]}"
+        path = "/#{posts[2]}/author/#{posts[0]}"
         if num_page > 1
           path = path + "/page#{num_page}"
         end
@@ -40,8 +42,9 @@ module Jekyll
 
     private
 
-    def posts_by_author(site, author)
-      site.posts.docs.select { |post| post.data['author'] == author }
+
+    def posts_by_author(site, author, lang)
+      site.posts.docs.select { |post| post.data['author'] == author && post.data['lang'] == lang}
     end
   end
 

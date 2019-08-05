@@ -43,7 +43,7 @@ permalink: /:title
 
 # gems and other configs
 plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed, jekyll-jalali]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-jalali, jekyll-autoprefixer]
 
 feed:
   path: feed.xml
@@ -53,13 +53,11 @@ feed:
 # Author's page cover in _layouts/author.html
 # The same for page.html and tag.html layouts
 # Post's page cover as a per-post basis _posts/...
-
 destination: _site
 port: 4002
 
 exclude:
   - archive
-  - assets/css
   - node_modules/
   - vendor
   - Gemfile
@@ -78,7 +76,11 @@ image_optim:
   cache_file: "_image_optim_cache.yml"
   image_glob: "assets/images/**/**.{gif,png,jpg,jpeg}"
 
-  
+autoprefixer:
+  browsers:
+  - last 2 versions
+  only_production: false
+
 defaults:
 # English
   - scope:

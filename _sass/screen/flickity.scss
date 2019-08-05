@@ -1,0 +1,16 @@
+.flickity-prev-next-button:disabled {
+  display: none;
+}
+
+.main-carousel {
+  height: 100%;
+}
+
+.carousel-cell {
+  width: 100%;
+  /* full width */
+  height: 100%;
+  /* height of carousel */
+  margin-right: 10px;
+  margin-left: 10px;
+}

@@ -1,0 +1,138 @@
+/* 12. Index Cards
+/* ---------------------------------------------------------- */
+.indx-card {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0 20px 40px;
+  min-height: 300px;
+  background: #fff center center;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: rgba(39, 44, 49, 0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
+  transition: all 0.5s ease;
+}
+
+.indx-card:hover {
+  box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+  transition: all 0.3s ease;
+  transform: translate3D(0, -1px, 0);
+}
+
+.indx-card-image-link {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+}
+
+.indx-card-image {
+  width: auto;
+  height: 200px;
+  background: var(--lightgrey) no-repeat center center;
+  background-size: cover;
+}
+
+.indx-card-content-link {
+  position: relative;
+  display: block;
+  padding: 25px 25px 0;
+  color: var(--darkgrey);
+}
+
+.indx-card-content-link:hover {
+  text-decoration: none;
+}
+
+.indx-card-tags {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--midgrey);
+  font-size: 1.2rem;
+  line-height: 1.15em;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.indx-card-title {
+  margin-top: 0;
+  font-family: "BHTitle", "Times New Roman";
+  font-size: 2.5rem;
+}
+
+.indx-card-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.indx-card-excerpt {
+  font-family: "Sahel", serif;
+}
+
+.indx-card-meta {
+  padding: 0 25px 25px;
+}
+
+.index-feed {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+  padding: 40px 0 0 0;
+}
+
+@media screen and (min-width: 800px) {
+  .podcast-card {
+    flex: 3;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .slider-card {
+    flex: 8;
+  }
+}
+
+.slider-card {
+  height: 400px;
+  overflow: visible;
+}
+
+.podcast-card {
+  height: 400px;
+}
+
+.slider-box {
+  height: 100%;
+  width: 100%;
+}
+
+.round-links {
+  color: black;
+  display: inline-block;
+  border-radius: 85px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
+}
+
+.news-card-image {
+  width: auto;
+  height: 250px;
+  background: var(--lightgrey) no-repeat center center;
+  background-size: cover;
+}
+
+.placement-test {
+  color: #000;
+  display: inline-block;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

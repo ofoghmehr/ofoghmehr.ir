@@ -11,3 +11,5 @@ gem 'image_optim_pack'
 gem "tzinfo"
 gem "tzinfo-data"
 gem 'jekyll-autoprefixer'
+gem 'jekyll-seo-tag'
+gem "jekyll-assets"

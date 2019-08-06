@@ -19,7 +19,7 @@
   <link rel="stylesheet" type="text/css" href="/assets/built/emoji.css" />
 
   <!-- This tag outputs SEO meta+structured data and other important settings -->
-  {% include head.html %}
+  {% include main/head.html %}
 </head>
 
 <body class="{% if paginator.page > 1 %}paged archive-template{% elsif page.class %}{{
@@ -94,7 +94,7 @@
   {% endif %}
 
   <!-- Offcanvas Details -->
-  {% include partials/offcanvas.html %}
+  {% include index/offcanvas.html %}
 
   <!-- jQuery + Fitvids, which makes all video embeds responsive -->
   <script type="text/javascript" src="/assets/js/jquery-3.2.1.min.js"></script>

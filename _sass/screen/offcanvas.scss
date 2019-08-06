@@ -76,7 +76,7 @@
   padding: 14px 20px;
   width: 100%;
   border: none;
-  color: var(--midgrey);
+  color: $midgrey;
   font-size: 2rem;
   line-height: 1em;
   font-weight: normal;
@@ -90,7 +90,7 @@
 
 .subscribe-email:focus {
   outline: 0;
-  border-color: adjust-color($lightgrey,$lightness: -2%);
+  border-color: adjust-color($lightgrey, $lightness: -2%);
 }
 
 .offcanvas-overlay button {
@@ -106,10 +106,10 @@
   text-align: center;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
   background: linear-gradient(
-    adjust-color($blue,$lightness: -20%,$saturation: -10%),
-    adjust-color($blue,$lightness: -15%,$saturation: -10%) 60%,
-    adjust-color($blue,$lightness: -15%,$saturation: -20%) 90%,
-    adjust-color($blue,$lightness: -10%,$saturation: -10%)
+    adjust-color($blue, $lightness: -20%, $saturation: -10%),
+    adjust-color($blue, $lightness: -15%, $saturation: -10%) 60%,
+    adjust-color($blue, $lightness: -15%, $saturation: -20%) 90%,
+    adjust-color($blue, $lightness: -10%, $saturation: -10%)
   );
   border-radius: 8px;
   box-shadow: 0 0 0 1px inset rgba(0, 0, 0, 0.14);
@@ -119,8 +119,7 @@
 
 .offcanvas-overlay button:active,
 .offcanvas-overlay button:focus {
-    
-  background: adjust-color($blue,$lightness: -9%,$saturation: -10%);
+  background: adjust-color($blue, $lightness: -9%, $saturation: -10%);
 }
 
 .offcanvas-overlay-close {

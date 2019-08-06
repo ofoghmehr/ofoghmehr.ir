@@ -41,7 +41,7 @@
 .post-card-image {
   width: auto;
   height: 200px;
-  background: var(--lightgrey) no-repeat center center;
+  background: $lightgrey no-repeat center center;
   background-size: cover;
 }
 
@@ -49,7 +49,7 @@
   position: relative;
   display: block;
   padding: 25px 25px 0;
-  color: var(--darkgrey);
+  color: $darkgrey;
 }
 
 .post-card-content-link:hover {
@@ -59,7 +59,7 @@
 .post-card-tags {
   display: block;
   margin-bottom: 4px;
-  color: var(--midgrey);
+  color: $midgrey;
   font-size: 1.2rem;
   line-height: 1.15em;
   font-weight: 500;

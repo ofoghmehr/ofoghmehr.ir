@@ -4,5 +4,13 @@
 			"path": "/home/mohsen/Desktop/Projects/web/ofoghmehr"
 		}
 	],
-	"settings": {}
+	"settings": {"colorize.languages":[
+		"css",
+		"sass",
+		"scss"
+	],"colorize.colorized_variables": [
+		"SASS"
+	  ],
+		"sassVariablesHelper.route": "./_sass/global/variables.scss"
+	}
 }

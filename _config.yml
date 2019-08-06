@@ -43,7 +43,7 @@ permalink: /:title
 
 # gems and other configs
 plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed, jekyll-jalali, jekyll-autoprefixer]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-jalali, jekyll-autoprefixer, jekyll-assets, jekyll-seo-tag]
 
 feed:
   path: feed.xml

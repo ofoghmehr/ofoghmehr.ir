@@ -1,5 +1,6 @@
 _site
 .sass-cache/
+.asset-cache/
 archive/
 node_modules/
 yarn-error.log

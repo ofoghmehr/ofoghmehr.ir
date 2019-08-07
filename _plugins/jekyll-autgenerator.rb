@@ -1,14 +1,12 @@
 module Jekyll
-
   class AuthorsGenerator < Generator
-
     safe true
-    
+
     def generate(site)
-      site.data['translations'].each do |lang, data|
-        site.data['authors'].each do |author, data|
+      site.data["languages"].each do |lang, data|
+        site.data["authors"].each do |author, data|
           posts = [author, posts_by_author(site, author, lang), lang]
-          build_subpages(site, 'author', posts)
+          build_subpages(site, "author", posts)
         end
       end
     end
@@ -26,7 +24,7 @@ module Jekyll
     end
 
     def paginate(site, type, posts)
-      pages = Jekyll::Paginate::Pager.calculate_pages(posts[1], site.config['paginate'].to_i)
+      pages = Jekyll::Paginate::Pager.calculate_pages(posts[1], site.config["paginate"].to_i)
       (1..pages).each do |num_page|
         pager = Jekyll::Paginate::Pager.new(site, num_page, posts[1], pages)
         path = "/#{posts[2]}/author/#{posts[0]}"
@@ -36,15 +34,13 @@ module Jekyll
         newpage = GroupSubPageAuthor.new(site, site.source, path, type, posts[0])
         newpage.pager = pager
         site.pages << newpage
-
       end
     end
 
     private
 
-
     def posts_by_author(site, author, lang)
-      site.posts.docs.select { |post| post.data['author'] == author && post.data['lang'] == lang}
+      site.posts.docs.select { |post| post.data["author"] == author && post.data["lang"] == lang }
     end
   end
 
@@ -53,10 +49,10 @@ module Jekyll
       @site = site
       @base = base
       @dir = dir
-      @name = 'index.html'
+      @name = "index.html"
 
       self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), "author.html")
+      self.read_yaml(File.join(base, "_layouts"), "author.html")
       self.data["grouptype"] = type
       self.data[type] = val
     end
@@ -67,10 +63,10 @@ module Jekyll
       @site = site
       @base = base
       @dir = dir
-      @name = 'feed.xml'
+      @name = "feed.xml"
 
       self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), "feed.xml")
+      self.read_yaml(File.join(base, "_layouts"), "feed.xml")
       self.data[type] = val
       self.data["grouptype"] = type
       self.data["posts"] = posts[0..9]

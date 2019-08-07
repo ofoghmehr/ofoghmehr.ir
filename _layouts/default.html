@@ -16,7 +16,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Styles'n'Scripts -->
   <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
-  <link rel="stylesheet" type="text/css" href="/assets/built/emoji.css" />
 
   <!-- This tag outputs SEO meta+structured data and other important settings -->
   {% include main/head.html %}
@@ -39,62 +38,12 @@
       partials/post_pagination.html %} {% endif %} {% endif %}
 
     <!-- The footer at the very bottom of the screen -->
-    <footer class="site-footer outer">
-      <div class="site-footer-content inner">
-        <section class="copyright">
-          <p>
-            {{ site.data.translations[page.lang]["footer"]["email"] }}
-            <a href="mailto:info@bineshafza.ir">info@bineshafza.ir</a>
-          </p>
-          <nav class="site-footer-nav">
-            {% if site.instagram %}
-            <a class="social-link social-link-in" href="https://instagram.com/{{ site.instagram }}" target="_blank"
-              rel="noopener">{% include svg/instagram.html %}</a>
-            {% endif %} {% if site.telegram %}
-            <a class="social-link social-link-tg" href="https://telegram.me/{{ site.telegram }}" target="_blank"
-              rel="noopener">{% include svg/telegram.html %}</a>
-            {% endif %} {% if site.facebook %}
-            <a class="social-link social-link-fb" href="https://facebook.com/{{ site.facebook }}" target="_blank"
-              rel="noopener">{% include svg/facebook.html %}</a>
-            {% endif %} {% if site.twitter %}
-            <a class="social-link social-link-tw" href="https://twitter.com/{{ site.twitter }}" target="_blank"
-              rel="noopener">{% include svg/twitter.html %}</a>
-            {% endif %} {% if site.linkedin %}
-            <a class="social-link social-link-li" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"
-              rel="noopener">{% include svg/linkedin.html %}</a>
-            {% endif %}
-          </nav>
-          <p style="font-size: 10px; margin-top:30px; opacity: 0.3;">
-            {{ site.data.translations[page.lang]["footer"]["developedBy"] }}
-            <br />
-            {{ site.data.translations[page.lang]["footer"]["copyright"] }}
-          </p>
-        </section>
-      </div>
-    </footer>
+    {% include main/footer.html %}
   </div>
 
   <!-- The big email subscribe modal content -->
-  {% if site.subscribers %}
-  <div id="subscribe" class="subscribe-overlay">
-    <a class="subscribe-overlay-close" href="#"></a>
-    <div class="subscribe-overlay-content">
-      {% if site.logo %}
-      <img class="subscribe-overlay-logo" src="{{ site.logo }}" alt="{{ site.title }}" />
-      {% endif %}
-      <h1 class="subscribe-overlay-title">Subscribe to {{ site.title }}</h1>
-      <p class="subscribe-overlay-description">
-        Stay up to date! Get all the latest &amp; greatest posts delivered
-        straight to your inbox
-      </p>
-      {% include partials/subscribe-form.html
-        placeholder="youremail@example.com" %}
-    </div>
-  </div>
-  {% endif %}
+  {% include partials/subscribe-overlay.html %}
 
-  <!-- Offcanvas Details -->
-  {% include index/offcanvas.html %}
 
   <!-- jQuery + Fitvids, which makes all video embeds responsive -->
   <script type="text/javascript" src="/assets/js/jquery-3.2.1.min.js"></script>

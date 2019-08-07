@@ -21,9 +21,9 @@ into the {body} of the default.hbs template -->
                 {{ site.title }}
                 {% endif %}
             </h1>
-            <h1>{{ site.data.translations[page.lang]["main"]["title"] }}</h1>
-            <h2 class="site-description">{% if page.description %}{{ page.description }}{% else %}{{ site.data.translations[page.lang]["main"]["subtitle"] }}
-                {% endif %}</h2>
+            <h1>{{ site.title }}</h1>
+            <h2 class="site-description">{% if page.description %}{{ page.description }}{% else %}{{ site.description
+                }}{% endif %}</h2>
         </div>
         {% include main/site-nav.html %}
     </div>
@@ -33,9 +33,9 @@ into the {body} of the default.hbs template -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <div class="main-wrapper">
+        <div class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-            {% include index/index-cards.html %}
+            {% include partials/post-card.html %}
         </div>
 
     </div>

@@ -6,7 +6,7 @@ navigation: true
 logo: /assets/images/ghost.png
 class: page-template
 subclass: 'post page'
-permalink: /about
+permalink: /fa/about
 ---
 
 آموزشگاه بینش افزا با بهره گیری از روشهای نوین و مبتکرانه درصدد آموزش زبان آموزان با بالاترین کیفیت آموزشی و صرف کمترین هزینه و زمان می‌باشد.

@@ -4,13 +4,17 @@
 			"path": "/home/mohsen/Desktop/Projects/web/ofoghmehr"
 		}
 	],
-	"settings": {"colorize.languages":[
-		"css",
-		"sass",
-		"scss"
-	],"colorize.colorized_variables": [
-		"SASS"
-	  ],
-		"sassVariablesHelper.route": "./_sass/global/variables.scss"
+	"settings": {
+		"colorize.languages": [
+			"css",
+			"sass",
+			"scss",
+			"html"
+		],
+		"colorize.colorized_variables": [
+			"SASS"
+		],
+		"sassVariablesHelper.route": "./_sass/global/variables.scss",
+		"editor.formatOnSave": true
 	}
 }

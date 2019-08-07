@@ -1,7 +1,8 @@
 ---
 layout: index
-lang: en
 current: home
 class: 'home-template'
 navigation: True
+lang: fa
+permalink: /fa
 ---

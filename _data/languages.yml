@@ -1,6 +1,54 @@
 en:
-  label: English
   dir: "ltr"
+  label: "English"
+  main:
+    title: "Ofogh Mehr"
+    subtitle: "Teaching is a temporary job, learning isn't!"
+  menu:
+    home: "Home"
+    blog: "Blog"
+    courses: "Courses"
+    videos: "Videos"
+    contact: "Contact"
+    subscribe: "Subscribe"
+  index:
+    news: "News"
+    articles: "Articles"
+    courses: "Courses"
+    writings: "Writings"
+  podcasts:
+    title: "Podcasts"
+    allPodcasts: "All episodes"
+    latest: "Latest Podcast"
+    description: "Here you can listen to my latest podcast!"
+  footer:
+    email: "Email:"
+    copyright: "All rights reserved by Bahram Hossein 2019"
+    developedBy: "Developed by Mohsen Khanpour"
 fa:
-  label: فارسی
   dir: "rtl"
+  label: "فارسی"
+  main:
+    title: "افق مهر"
+    subtitle: "تدریس یک حرفه موقت است ولی یادگیری، نه!"
+  index:
+    news: "اخبار"
+    articles: "مقالات"
+    courses: "دوره‌های ویژه"
+    writings: "نوشته‌ها"
+  podcasts:
+    title: "پادکست‌ها"
+    allPodcasts: "همه پادکست‌ها"
+    latest: "آخرین پادکست‌"
+    description: "در این قسمت می‌توانید آخرین پادکست را گوش کنید!"
+  menu:
+    home: "خانه"
+    blog: "وبلاگ"
+    courses: "کلاس‌ها"
+    videos: "ویدیو‌ها"
+    contact: "تماس"
+    subscribe: "اشتراک"
+  footer:
+    email: ":پست الکترونیکی"
+    copyright: "تمامی حقوق برای بهرام حسین محفوظ است"
+    developedBy: "طراحی و توسعه توسط محسن خانپور"

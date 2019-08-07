@@ -3,7 +3,7 @@ layout: default
 current: home
 class: 'page-template'
 navigation: True
-permalink: /fa/articles
+permalink: /en/articles
 ---
 
 

@@ -4,7 +4,7 @@ current: about
 class: page-template
 subclass: post page
 navigation: true
-permalink: "/fa/IELTS"
+permalink: "/en/IELTS"
 logo: "/assets/images/ghost.png"
 
 ---

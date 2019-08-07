@@ -3,9 +3,8 @@ layout: default
 current: home
 class: 'page-template'
 navigation: True
-permalink: /fa/articles
+permalink: /en/events
 ---
-
 
 <header class="site-header outer">
     <div class="inner">
@@ -19,11 +18,11 @@ permalink: /fa/articles
 
         <div class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-            {% assign posts = site.posts | where: "category", "articles" %}
+            {% assign posts = site.posts | where: "category", "news" | where: "tags", "event" %}
             {% for post in posts %}
             <article class="post-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
                 {% if post.cover %}
-                <a class="post-card-image-link" href="{{ post.url   }}">
+                <a class="post-card-image-link" href="{{ post.url }}">
                     <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
                 </a>
                 {% endif %}

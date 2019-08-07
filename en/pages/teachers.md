@@ -1,14 +1,30 @@
 ---
 layout: default
 current: home
-class: 'page-template'
+class: 'home-template'
 navigation: True
-permalink: /fa/articles
+permalink: /en/teachers
 ---
 
+<!-- < default -->
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
 
-<header class="site-header outer">
+<!-- The big featured header, it uses blog cover image as a BG if available -->
+<header class="site-header outer {% if page.cover or site.cover %}"
+    style="background-image:  url({% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %}) {% else %}no-cover{% endif %}">
     <div class="inner">
+        <div class="site-header-content">
+            <h1 class="site-title">
+                {% if site.logo %}
+                <img class="site-logo" src="{{ site.logo }}" alt="{{ site.title }}" />
+                {% else %}
+                {{ site.title }}
+                {% endif %}
+            </h1>
+            <h2 class="site-description">
+                {% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</h2>
+        </div>
         {% include main/site-nav.html %}
     </div>
 </header>
@@ -19,7 +35,7 @@ permalink: /fa/articles
 
         <div class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-            {% assign posts = site.posts | where: "category", "articles" %}
+            {% assign posts = site.posts | where: "category", "teachers" %}
             {% for post in posts %}
             <article class="post-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
                 {% if post.cover %}
@@ -43,7 +59,7 @@ permalink: /fa/articles
                             <h2 class="post-card-title">{{ post.title }}</h2>
                         </header>
                         <section class="post-card-excerpt">
-                            <p>{{ post.content | strip_html | truncatewords: 33, " ... " }}</p>
+                            <p>{{ post.content | strip_html | truncatewords: 33, " ... "  }}</p>
                         </section>
                     </a>
                     <footer class="post-card-meta">

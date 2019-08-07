@@ -24,7 +24,6 @@ build:
   publish_command: bundle exec jekyll build -d _site
   preview_env:
   - JEKYLL_ENV=staging
-  - NODE_VERSION=10.16.0
   - RUBY_VERSION=2.6.3
   publish_env:
   - JEKYLL_ENV=production
@@ -33,5 +32,5 @@ build:
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
     --port 8080 --host 0.0.0.0 -d _site
   install_dependencies_command: bundle install --path vendor/bundle
-  preview_docker_image: forestryio/ruby:2.6
+  preview_docker_image: forestryio/ruby:2.6-node10
   mount_path: "/srv"

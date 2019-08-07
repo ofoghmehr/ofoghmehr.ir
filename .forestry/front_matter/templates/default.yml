@@ -1,7 +1,6 @@
 ---
 label: Post
 hide_body: false
-is_partial: false
 fields:
 - name: title
   label: Title
@@ -40,12 +39,4 @@ fields:
   description: Select post language to define text-direction.
   default: post-ltr
 pages:
-- _posts/articles/Other/michel-de-montaigne.md
-- _posts/articles/Other/cultural-mining.md
 - _data/homepage.yml
-- _posts/articles/Other/the-real-st-valentine-was-no-patron-of-love.md
-- _posts/multimedia/quotes/2019-01-14-quote-of-the-day.md
-- _posts/articles/Other/2019-02-10-یادگیری-خود-راهبر-یک-فرآیند-چهار-مرحله‌ای.md
-- _posts/multimedia/quotes/2019-01-22-quote-of-the-day.md
-- _posts/news/2019-01-19-ماک-آیلتس.md
-- _posts/courses/2019-01-10-french-language.md

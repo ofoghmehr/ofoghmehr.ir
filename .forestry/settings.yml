@@ -8,12 +8,12 @@ sections:
   path: fa
   label: Persian
   create: all
-  match: "{pages, _posts}/**/*"
+  match: "{pages,_posts}/**/*"
 - type: directory
   path: en
   label: English
   create: all
-  match: "**/*"
+  match: "{pages,_posts}/**/*"
   templates:
   - default
 - type: document

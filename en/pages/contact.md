@@ -1,7 +1,7 @@
 ---
 layout: page
 current: about
-title: درباره بینش‌افزا
+title: Contact Us
 navigation: true
 logo: /assets/images/ghost.png
 class: page-template

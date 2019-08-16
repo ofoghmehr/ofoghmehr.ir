@@ -1,4 +1,4 @@
-{% assign posts = site.posts | where: "tags", "Blog" | where: "lang", page.lang | sort:"date" | reverse %}
+{% assign posts = site.posts | where: "tags", "blog" | where: "lang", page.lang | sort:"date" | reverse %}
 {% for post in posts limit:2 %}
 <article class="indx-card {{page.class}}
               {% unless post.cover %} no-image{% endunless %}">

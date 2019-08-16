@@ -31,7 +31,7 @@ module Jekyll
         if num_page > 1
           path = path + "/page#{num_page}"
         end
-        newpage = GroupSubPageAuthor.new(site, site.source, path, type, posts[0])
+        newpage = GroupSubPageAuthor.new(site, site.source, path, type, posts[0], posts[2])
         newpage.pager = pager
         site.pages << newpage
       end
@@ -45,7 +45,7 @@ module Jekyll
   end
 
   class GroupSubPageAuthor < Page
-    def initialize(site, base, dir, type, val)
+    def initialize(site, base, dir, type, val, lang)
       @site = site
       @base = base
       @dir = dir
@@ -53,6 +53,7 @@ module Jekyll
 
       self.process(@name)
       self.read_yaml(File.join(base, "_layouts"), "author.html")
+      self.data["lang"] = lang
       self.data["grouptype"] = type
       self.data[type] = val
     end

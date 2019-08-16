@@ -1,9 +1,7 @@
 {
-	"folders": [
-		{
-			"path": "/home/mohsen/Desktop/Projects/web/ofoghmehr.ir"
-		}
-	],
+	"folders": [{
+		"path": "/home/mohsen/Desktop/Projects/web/ofoghmehr.ir"
+	}],
 	"settings": {
 		"colorize.languages": [
 			"css",
@@ -15,6 +13,7 @@
 			"SASS"
 		],
 		"sassVariablesHelper.route": "./_sass/global/variables.scss",
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"html.format.enable": false
 	}
 }

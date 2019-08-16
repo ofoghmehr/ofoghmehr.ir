@@ -1,17 +1,20 @@
-speeches:
-  name: speeches
+news:
+  name: news
   description: Some of the greatest words ever spoken.
   cover: assets/images/tags/speeches.jpg
-fiction:
-  name: fiction
+blog:
+  name: blog
   description: False
   cover: False
-fables:
-  name: fables
-  farsi: افسانه‌ها
+courses:
+  name: courses
   description: A series of short stories that make you think.
   cover: assets/images/tags/fables.jpg
 getting-started:
+  name: getting-started
+  description: False
+  cover: False
+quotes:
   name: getting-started
   description: False
   cover: False

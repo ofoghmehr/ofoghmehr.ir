@@ -13,7 +13,6 @@ module Jekyll
 
     def build_subpages(site, type, posts)
       posts[1] = posts[1].sort_by { |p| -p.date.to_f }
-      puts posts[1]
       atomize(site, type, posts)
       paginate(site, type, posts)
     end
@@ -32,7 +31,7 @@ module Jekyll
         if num_page > 1
           path = path + "/page#{num_page}"
         end
-        newpage = GroupSubPageTags.new(site, site.source, path, type, posts[0])
+        newpage = GroupSubPageTags.new(site, site.source, path, type, posts[0], posts[2])
         newpage.pager = pager
         site.pages << newpage
       end
@@ -41,13 +40,12 @@ module Jekyll
     private
 
     def posts_by_lang(site, tag, lang)
-      puts "Tag is: #{tag} and Lang is : #{lang}"
       site.posts.docs.select { |post| post.data["tags"].include?(tag) && post.data["lang"] == lang }
     end
   end
 
   class GroupSubPageTags < Page
-    def initialize(site, base, dir, type, val)
+    def initialize(site, base, dir, type, val, lang)
       @site = site
       @base = base
       @dir = dir
@@ -55,6 +53,7 @@ module Jekyll
 
       self.process(@name)
       self.read_yaml(File.join(base, "_layouts"), "tag.html")
+      self.data["lang"] = lang
       self.data["grouptype"] = type
       self.data[type] = val
     end

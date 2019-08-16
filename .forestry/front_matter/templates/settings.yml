@@ -1,0 +1,25 @@
+---
+label: Settings
+hide_body: true
+fields:
+- type: text
+  name: mockdate
+  label: mockdate
+- type: text
+  name: author
+  label: author
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: cover
+  label: cover
+- type: list
+  name: tags
+  label: tags

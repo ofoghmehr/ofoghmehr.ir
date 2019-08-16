@@ -3,13 +3,15 @@ en:
   label: "English"
   main:
     title: "Ofogh Mehr"
-    subtitle: "Teaching is a temporary job, learning isn't!"
+    subtitle: "Language School"
   menu:
     home: "Home"
     blog: "Blog"
+    news: "News"
     courses: "Courses"
     videos: "Videos"
     contact: "Contact"
+    about: "About"
     subscribe: "Subscribe"
   index:
     news: "News"
@@ -54,7 +56,16 @@ fa:
   label: "فارسی"
   main:
     title: "افق مهر"
-    subtitle: "تدریس یک حرفه موقت است ولی یادگیری، نه!"
+    subtitle: "آموزشگاه زبان‌های خارجی"
+  menu:
+    home: "خانه"
+    news: "اخبار"
+    blog: "وبلاگ"
+    courses: "دوره‌ها"
+    videos: "ویدیو‌ها"
+    contact: "تماس"
+    about: "درباره‌"
+    subscribe: "اشتراک"
   index:
     news: "اخبار"
     articles: "مقالات"
@@ -65,13 +76,6 @@ fa:
     allPodcasts: "همه پادکست‌ها"
     latest: "آخرین پادکست‌"
     description: "در این قسمت می‌توانید آخرین پادکست را گوش کنید!"
-  menu:
-    home: "خانه"
-    blog: "وبلاگ"
-    courses: "کلاس‌ها"
-    videos: "ویدیو‌ها"
-    contact: "تماس"
-    subscribe: "اشتراک"
   footer:
     email: ":پست الکترونیکی"
     copyright: "تمامی حقوق برای افق مهر محفوظ است"

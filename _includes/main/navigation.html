@@ -1,25 +1,33 @@
 <ul class="nav" role="menu">
-  <li class="nav-home" role="menuitem">
-    <a href="/{{page.lang}}"> {{ site.data.languages[page.lang]["menu"]["home"] }}</a>
-  </li>
-  <li class="nav-blog" role="menuitem">
-    <a href="/{{page.lang}}/blog"> {{ site.data.languages[page.lang]["menu"]["blog"] }}</a>
-  </li>
-  <li class="nav-home" role="menuitem">
-    <a href="/{{page.lang}}/courses">
-      {{ site.data.languages[page.lang]["menu"]["courses"] }}</a
-    >
-  </li>
-  <li class="nav-about" role="menuitem">
-    <a href="/{{page.lang}}/about">
-      {{ site.data.languages[page.lang]["menu"]["contact"] }}</a
-    >
-  </li>
-  <li class="nav-lang" role="menuitem">
-    {%- if page.lang == "en" -%}
-    <a href="/fa/" data-no-instant>فارسی</a>
-    {%- elsif  page.lang == "fa" -%}
-    <a href="/en/" data-no-instant>English</a>
-    {%- endif -%}
-  </li>
+    <li class="nav-home" role="menuitem">
+        <a href="/{{page.lang}}">
+            {{ site.data.languages[page.lang]["menu"]["home"] }}</a>
+    </li>
+    <li class="nav-about" role="menuitem">
+        <a href="/{{page.lang}}/news">
+            {{ site.data.languages[page.lang]["menu"]["news"] }}</a>
+    </li>
+    <li class="nav-blog" role="menuitem">
+        <a href="/{{page.lang}}/blog">
+            {{ site.data.languages[page.lang]["menu"]["blog"] }}</a>
+    </li>
+    <li class="nav-home" role="menuitem">
+        <a href="/{{page.lang}}/courses">
+            {{ site.data.languages[page.lang]["menu"]["courses"] }}</a>
+    </li>
+    <li class="nav-about" role="menuitem">
+        <a href="/{{page.lang}}/contact">
+            {{ site.data.languages[page.lang]["menu"]["contact"] }}</a>
+    </li>
+    <li class="nav-about" role="menuitem">
+        <a href="/{{page.lang}}/about">
+            {{ site.data.languages[page.lang]["menu"]["about"] }}</a>
+    </li>
+    <li class="nav-lang" role="menuitem">
+        {%- if page.lang == "en" -%}
+            <a data-no-instant href="/fa/">فارسی</a>
+        {%- elsif  page.lang == "fa" -%}
+            <a data-no-instant href="/en/">English</a>
+        {%- endif -%}
+    </li>
 </ul>

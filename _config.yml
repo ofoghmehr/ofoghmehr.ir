@@ -12,9 +12,9 @@ url: https://ofoghmehr.ir/
 title: Ofogh Mehr
 description: English School
 cover: /assets/images/site-header.jpg
-logo: /assets/images/blog-icon.svg
-logo_dark: /assets/images/blog-icon.svg
-favicon: /assets/images/favicon.ico
+logo: /assets/images/ofoghmehr-logo.png
+logo_dark: /assets/images/ofoghmehr-logo.png
+favicon: /assets/images/favicon.png
 
 
 # Social info
@@ -75,7 +75,7 @@ image_optim:
   archive_dir: "archive/files/"
   cache_file: "_image_optim_cache.yml"
   image_glob: "assets/images/**/**.{gif,png,jpg,jpeg}"
-  
+
 sass:
   style: compressed
 
@@ -144,7 +144,7 @@ defaults:
       permalink: /fa/courses/:title
       category: courses
       catname: دوره‌ها
-      
+
 # Blog English
   - scope:
       path: "en/_posts/blog"

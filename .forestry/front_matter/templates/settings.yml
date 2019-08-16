@@ -33,3 +33,5 @@ fields:
     schema:
       format: markdown
   label: BannerText
+pages:
+- _data/homepage.yml

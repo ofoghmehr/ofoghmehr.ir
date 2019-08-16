@@ -21,5 +21,3 @@ fields:
   type: tag_list
   hidden: false
   default: ''
-pages:
-- _data/homepage.yml

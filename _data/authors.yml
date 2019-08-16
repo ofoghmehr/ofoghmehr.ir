@@ -1,8 +1,8 @@
-bineshafza:
-  username: bineshafza
+ofoghmehr:
+  username: ofoghmehr
   name: بینش افزا
-  url_full: http://jekyller.github.io/jasper2/
-  url: https://bineshafza.ir
+  url_full: https://ofoghmehr.ir
+  url: https://ofoghmehr.ir
   bio: The professional publishing platform
   picture: /assets/images/authors/ghost.png
   facebook: ghost
@@ -19,4 +19,3 @@ bahramhossein:
   cover: /assets/images/authors/bahramhossein-cover.jpg
   facebook: False
   twitter: erisds
-

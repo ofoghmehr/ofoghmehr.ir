@@ -26,8 +26,7 @@ into the {body} of the default.hbs template -->
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date"
-                        datetime="{{ page.date | date:'%e %B %Y' }}">{{ page.date | jdate: "%A %d %b %Y" }}</time>
+                    {% include partials/date.html %}
                     {% if page.tags.size > 0 %}
                     <span class="date-divider">/</span>
                     {% for tag in page.tags %}

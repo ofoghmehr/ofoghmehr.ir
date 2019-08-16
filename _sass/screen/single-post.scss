@@ -43,7 +43,7 @@
 
 .post-full-title {
   margin: 0;
-  color: adjust-color($darkgrey,$lightness: -5%);
+  color: adjust-color($darkgrey, $lightness: -5%);
 }
 
 .date-divider {
@@ -165,7 +165,7 @@
   margin: 0;
 }
 
-.post-template .kg-card-markdown > p:first-child {
+.post-template .kg-card-markdown>p:first-child {
   font-size: 1.25em;
   line-height: 1.5em;
 }
@@ -182,7 +182,7 @@
 
 .post-full-content strong,
 .post-full-content em {
-  color: adjust-color($darkgrey,$lightness: -5%);
+  color: adjust-color($darkgrey, $lightness: -5%);
 }
 
 .post-full-content small {
@@ -202,6 +202,7 @@
 }
 
 @media (max-width: 1040px) {
+
   .post-full-content img,
   .post-full-content video {
     width: 100%;
@@ -229,7 +230,7 @@ Usage (In Ghost editor):
 <small>Your image caption</small>
 
 */
-.post-full-content img + br + small {
+.post-full-content img+br+small {
   display: block;
   margin-top: -3em;
   margin-bottom: 1.5em;
@@ -271,11 +272,11 @@ Usage (In Ghost editor):
   margin: 1.5em 0 3em;
   padding: 20px;
   max-width: 100%;
-  border: adjust-color($darkgrey,$lightness: -10%) 1px solid;
+  border: adjust-color($darkgrey, $lightness: -10%) 1px solid;
   color: $whitegrey;
   font-size: 1.4rem;
   line-height: 1.5em;
-  background: adjust-color($darkgrey,$lightness: -3%);
+  background: adjust-color($darkgrey, $lightness: -3%);
   border-radius: 5px;
 }
 
@@ -307,7 +308,7 @@ Usage (In Ghost editor):
   margin-left: -10px;
   width: 1px;
   height: 30px;
-  background: adjust-color($lightgrey,$lightness: +10%);
+  background: adjust-color($lightgrey, $lightness: +10%);
   box-shadow: #fff 0 0 0 5px;
   transform: rotate(45deg);
 }
@@ -318,8 +319,8 @@ Usage (In Ghost editor):
 .post-full-content h4,
 .post-full-content h5,
 .post-full-content h6 {
-  color: adjust-color($darkgrey,$lightness: -5%);
-  font-family: "BHTitle", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+  color: adjust-color($darkgrey, $lightness: -5%);
+  font-family: "TitleFont", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
     "Helvetica Neue", sans-serif;
 }
 
@@ -500,13 +501,13 @@ Usage (In Ghost editor):
   letter-spacing: 0.2px;
   text-align: left;
   text-transform: uppercase;
-  background-color: adjust-color($whitegrey,$lightness: +4%);
+  background-color: adjust-color($whitegrey, $lightness: +4%);
 }
 
 .post-full-content table th,
 .post-full-content table td {
   padding: 6px 12px;
-  border:adjust-color($whitegrey,$lightness: -1%, $saturation:-5%) 1px solid;
+  border: adjust-color($whitegrey, $lightness: -1%, $saturation:-5%) 1px solid;
 }
 
 /* 7.1. Subscribe Form
@@ -515,9 +516,9 @@ Usage (In Ghost editor):
 .subscribe-form {
   margin: 1.5em 0;
   padding: 6.5vw 7vw 7vw;
-  border: adjust-color($whitegrey,$lightness: +2%) 1px solid;
+  border: adjust-color($whitegrey, $lightness: +2%) 1px solid;
   text-align: center;
-  background: adjust-color($whitegrey,$lightness: +4%);
+  background: adjust-color($whitegrey, $lightness: +4%);
   border-radius: 7px;
 }
 
@@ -554,7 +555,7 @@ Usage (In Ghost editor):
   display: block;
   padding: 10px;
   width: 100%;
-  border: adjust-color($lightgrey ,$lightness: +7%) 1px solid;
+  border: adjust-color($lightgrey, $lightness: +7%) 1px solid;
   color: $midgrey;
   font-size: 1.8rem;
   line-height: 1em;
@@ -568,7 +569,7 @@ Usage (In Ghost editor):
 
 .subscribe-email:focus {
   outline: 0;
-  border-color: adjust-color($lightgrey,$lightness: -2%);
+  border-color: adjust-color($lightgrey, $lightness: -2%);
 }
 
 .subscribe-form button {
@@ -583,13 +584,10 @@ Usage (In Ghost editor):
   font-weight: 400;
   text-align: center;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
-  background: linear-gradient(
-    adjust-color($blue, $lightness: +7%),
-    adjust-color($blue, $lightness: -7%, $saturation: -10%) 60%,
-    adjust-color($blue, $lightness: -7%, $saturation: -10%) 90%,
-    adjust-color($blue, $lightness: -4%, $saturation: -10%)
-
-  );
+  background: linear-gradient(adjust-color($blue, $lightness: +7%),
+      adjust-color($blue, $lightness: -7%, $saturation: -10%) 60%,
+      adjust-color($blue, $lightness: -7%, $saturation: -10%) 90%,
+      adjust-color($blue, $lightness: -4%, $saturation: -10%));
   border-radius: 5px;
   box-shadow: 0 0 0 1px inset rgba(0, 0, 0, 0.14);
 
@@ -598,7 +596,7 @@ Usage (In Ghost editor):
 
 .subscribe-form button:active,
 .subscribe-form button:focus {
-    background: adjust-color($blue, $lightness: -9%, $saturation: -10%);
+  background: adjust-color($blue, $lightness: -9%, $saturation: -10%);
 }
 
 @media (max-width: 650px) {

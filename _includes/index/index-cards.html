@@ -11,12 +11,9 @@
   </div>
 </div>
 
-<div>
-  <h2 class="index-title">{{ site.data.languages[page.lang]["index"]["courses"] }}</h2>
-  <div class="index-feed">
-    {%- include index/link-cards.html -%}
-  </div>
-</div>
+
+{%- include index/link-cards.html -%}
+
 <!-- <div style="background-color: khaki; text-align: center">
     <p> تاریخ ماک بعدی آیلتس : ۲۲ بهمن</p>
 </div>  -->
@@ -28,9 +25,9 @@
     {%- include index/article-cards.html -%}
   </div>
 </div>
-<div>
+{%- comment -%} <div>
   <h2 class="index-title">دوره‌های ویژه</h2>
   <div class="index-feed">
     {%- include index/offcanvas-cards.html -%}
   </div>
-</div>
+</div> {%- endcomment -%}

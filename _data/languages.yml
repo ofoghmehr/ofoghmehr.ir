@@ -23,8 +23,32 @@ en:
     description: "Here you can listen to my latest podcast!"
   footer:
     email: "Email:"
-    copyright: "All rights reserved by Bahram Hossein 2019"
+    copyright: "All rights reserved by Ofogh Mehr 2019"
     developedBy: "Developed by Mohsen Khanpour"
+  courses:
+    foreign:
+      title: "Foreign Languages"
+      english: "English"
+      french: "French"
+      german: "German"
+      turkish: "Turkish"
+      italian: "Italian"
+      spanish: "Spanish"
+      japanese: "Japanese"
+    ielts:
+      title: "IELTS"
+      info: "Information"
+      register: "Register"
+    intl-exams:
+      title: "International Exams"
+      PTE: "PTE"
+      EPT-MSRT: "EPS/MSRT"
+      TOEFL: "TOEFL"
+      GRE: "GRE"
+    commerce:
+      title: "English for Commerce"
+      desc: "English courses for Business and Commerce"
+
 fa:
   dir: "rtl"
   label: "فارسی"
@@ -50,5 +74,28 @@ fa:
     subscribe: "اشتراک"
   footer:
     email: ":پست الکترونیکی"
-    copyright: "تمامی حقوق برای بهرام حسین محفوظ است"
+    copyright: "تمامی حقوق برای افق مهر محفوظ است"
     developedBy: "طراحی و توسعه توسط محسن خانپور"
+  courses:
+    foreign:
+      title: "زبان‌های خارجی"
+      english: "انگلیسی"
+      french: "فرانسوی"
+      german: "آلمانی"
+      turkish: "ترکی"
+      italian: "ایتالیایی"
+      spanish: "اسپانیایی"
+      japanese: "ژاپنی"
+    ielts:
+      title: "آیلتس"
+      info: "اطلاعات"
+      register: "ثبت‌نام"
+    intl-exams:
+      title: "آزمون‌های بین‌المللی"
+      PTE: "PTE"
+      EPT-MSRT: "EPS/MSRT"
+      TOEFL: "TOEFL"
+      GRE: "GRE"
+    commerce:
+      title: "انگلیسی برای کسب و کار"
+      desc: "دوره‌های ویژه برای بهبود کاربرد زبان در تجارت و کسب و کار"

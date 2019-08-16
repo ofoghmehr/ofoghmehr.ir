@@ -1,7 +1,7 @@
 ---
 layout: default
 current: home
-class: 'page-template'
+class: "page-template"
 navigation: True
 permalink: /fa/news
 lang: fa
@@ -53,7 +53,7 @@ lang: fa
                         <img class="author-profile-image" src="{{ author[1].picture }}" alt="{{ author[1].name }}" />
                         {% endif %}
                         <span class="post-card-author">
-                            <a href="/author/{{ post.author }}/">{{ author[1].name }}</a>
+                            <a href="/{{ post.lang }}/author/{{ post.author }}/">{{ author[1].name }}</a>
                         </span>
                         {% endif %}
                         {% endfor %}
@@ -65,4 +65,5 @@ lang: fa
         </div>
 
     </div>
+
 </main>

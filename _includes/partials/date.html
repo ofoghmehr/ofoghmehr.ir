@@ -1,0 +1,10 @@
+<time class="post-full-meta-date" datetime="{{ page.date | date:'%e %B %Y' }}">
+
+    {% if page.lang == "fa" %}
+    {{ page.date | jdate: "%A %d %b %Y" }}
+    {%  else %}
+    {{ page.date |  date: "%a %d %B %Y" }}
+
+    {% endif %}
+
+</time>

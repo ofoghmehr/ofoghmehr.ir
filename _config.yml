@@ -2,7 +2,7 @@
 markdown: kramdown
 highlighter: rouge
 paginate: 100 # it will paginate after this numberr
-language: 'en-uk'
+language: "en-uk"
 timezone: Asia/Tehran
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: ""
@@ -16,7 +16,6 @@ logo: /assets/images/ofoghmehr-logo.png
 logo_dark: /assets/images/ofoghmehr-logo.png
 favicon: /assets/images/favicon.png
 
-
 # Social info
 navigation: True # show the navbar links
 subscribers: True # you need to connect an external service for this to work,
@@ -25,10 +24,9 @@ subscribers: True # you need to connect an external service for this to work,
 
 twitter: ofoghmehr # replace by your username
 facebook: ofoghmehr # replace by your username
-telegram: ofoghmehr
-instagram: ofoghmehr
-linkedin: ofoghmehr
-
+telegram: Instituteofoghemehr
+instagram: ofoghemehrinstitute
+linkedin: ofogh-e-mehr-institute-6b25a7190
 
 # Google Analytics
 google_analytics: "UA-125890391-1" # replace with your GA tracking identifier
@@ -43,7 +41,14 @@ permalink: /:title
 
 # gems and other configs
 plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed, jekyll-jalali, jekyll-autoprefixer, jekyll-seo-tag]
+plugins:
+  [
+    jekyll-paginate,
+    jekyll-feed,
+    jekyll-jalali,
+    jekyll-autoprefixer,
+    jekyll-seo-tag,
+  ]
 
 feed:
   path: feed.xml
@@ -81,22 +86,22 @@ sass:
 
 autoprefixer:
   browsers:
-  - last 2 versions
+    - last 2 versions
   only_production: false
 
 defaults:
-# English
+  # English
   - scope:
       path: "en/*"
     values:
       lang: "en"
-# Farsi
+  # Farsi
   - scope:
       path: "fa/*"
     values:
       lang: "fa"
 
-# News English
+  # News English
   - scope:
       path: "en/_posts/news"
       type: posts
@@ -108,7 +113,7 @@ defaults:
       permalink: /en/news/:title
       category: news
       catname: News
-# News Farsi
+  # News Farsi
   - scope:
       path: "fa/_posts/news"
       type: posts
@@ -120,7 +125,7 @@ defaults:
       permalink: /fa/news/:title
       category: news
       catname: اخبار
-# Courses English
+  # Courses English
   - scope:
       path: "en/_posts/courses"
       type: posts
@@ -132,7 +137,7 @@ defaults:
       permalink: /en/courses/:title
       category: courses
       catname: Courses
-# Courses Farsi
+  # Courses Farsi
   - scope:
       path: "fa/_posts/courses"
       type: posts
@@ -145,7 +150,7 @@ defaults:
       category: courses
       catname: دوره‌ها
 
-# Blog English
+  # Blog English
   - scope:
       path: "en/_posts/blog"
       type: posts
@@ -157,7 +162,7 @@ defaults:
       permalink: /en/blog/:title
       category: blog
       catname: Weblog
-# Blog Farsi
+  # Blog Farsi
   - scope:
       path: "fa/_posts/blog"
       type: posts
@@ -169,29 +174,27 @@ defaults:
       permalink: /fa/blog/:title
       category: blog
       catname: وبلاگ
-#Multimedia English
+  #Multimedia English
   - scope:
       path: "en/_posts/multimedia"
       type: posts
     values:
-     class: post-template
-     navigation: True
-     layout: post
-     current: post
-     permalink: /en/multimedia/:title
-     category: multimedia
-     catname: چند‌رسانه‌ای
-#Multimedia Farsi
+      class: post-template
+      navigation: True
+      layout: post
+      current: post
+      permalink: /en/multimedia/:title
+      category: multimedia
+      catname: چند‌رسانه‌ای
+  #Multimedia Farsi
   - scope:
       path: "fa/_posts/multimedia"
       type: posts
     values:
-     class: post-template
-     navigation: True
-     layout: post
-     current: post
-     permalink: /fa/multimedia/:title
-     category: multimedia
-     catname: چند‌رسانه‌ای
-
-
+      class: post-template
+      navigation: True
+      layout: post
+      current: post
+      permalink: /fa/multimedia/:title
+      category: multimedia
+      catname: چند‌رسانه‌ای

@@ -18,11 +18,17 @@ en:
     articles: "Articles"
     courses: "Courses"
     writings: "Writings"
-  podcasts:
-    title: "Podcasts"
-    allPodcasts: "All episodes"
-    latest: "Latest Podcast"
+  noticeboard:
+    title: "Noticeboard"
+    careers: "Careers"
+    teacher: "Teachers"
+    personnel: "Personnel"
     description: "Here you can listen to my latest podcast!"
+    placement: "Placement"
+    nextp: "Next Placement Test:"
+    mock: "IELTS Mock"
+    nextm: "Next Mock Date:"
+
   footer:
     email: "Email:"
     copyright: "All rights reserved by Ofogh Mehr 2019"
@@ -71,11 +77,16 @@ fa:
     articles: "مقالات"
     courses: "دوره‌های ویژه"
     writings: "نوشته‌ها"
-  podcasts:
-    title: "پادکست‌ها"
-    allPodcasts: "همه پادکست‌ها"
-    latest: "آخرین پادکست‌"
-    description: "در این قسمت می‌توانید آخرین پادکست را گوش کنید!"
+  noticeboard:
+    title: "اعلانات"
+    careers: "همکاری"
+    teacher: "جذب مدرس"
+    personnel: "جذب پرسنل"
+    description: "Here you can listen to my latest podcast!"
+    placement: "تعیین سطح"
+    nextp: "زمان آزمون تعیین سطح بعدی:"
+    mock: "آزمون ماک آیلتس"
+    nextm: "تاریخ آزمون ماک بعدی:"
   footer:
     email: ":پست الکترونیکی"
     copyright: "تمامی حقوق برای افق مهر محفوظ است"

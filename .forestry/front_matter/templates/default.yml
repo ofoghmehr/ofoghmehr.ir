@@ -21,3 +21,5 @@ fields:
   type: tag_list
   hidden: false
   default: ''
+pages:
+- fa/_posts/news/2019-01-10-news-1.md

@@ -3,17 +3,13 @@ layout: page
 current: about
 title: About Us
 navigation: true
-logo: /assets/images/ghost.png
+logo: "/assets/images/ghost.png"
 class: page-template
-subclass: 'post page'
-permalink: /en/about
-alias: /about/index.html
+subclass: post page
+permalink: "/en/about"
+alias: "/about/index.html"
+
 ---
+_Ofogh-e-mehr is a registered English Language Institute which started its activity in 2009. The institute provides classes for a variety of age groups from young children to adults. The final goal of the institute is preparing students for international exams like IELTS, TOEFL etc. To this end, the institute has always strived to employ professional experienced teachers._
 
-آموزشگاه بینش افزا با بهره گیری از روشهای نوین و مبتکرانه درصدد آموزش زبان آموزان با بالاترین کیفیت آموزشی و صرف کمترین هزینه و زمان می‌باشد.
-آموزشگاه بینش افزا با بکارگیری توان مدیریتی و علمی مربیان خلاق و با تجربه همواره برآن است تا آموزش صحیح و کاربردی در تمام رده های سنی (از خردسال تا بزرگسال) را سرلوحه‌ی اهداف خود قرار دهد.
-
-آموزشگاه بینش افزا با بهره گیری از روشهای نوین و مبتکرانه درصدد آموزش زبان آموزان با بالاترین کیفیت آموزشی و صرف کمترین هزینه و زمان می‌باشد.
-آموزشگاه بینش افزا با بکارگیری توان مدیریتی و علمی مربیان خلاق و با تجربه همواره برآن است تا آموزش صحیح و کاربردی در تمام رده های سنی (از خردسال تا بزرگسال) را سرلوحه‌ی اهداف خود قرار دهد.
-0123
-این آموزشگاه دارای مجوز رسمی از سازمان فنی و حرفه ای کشور می باشد. لذا کلیه ی استانداردهای آموزشی و مدارک تحت مجوز سازمان فنی و حرفه ای کشور بصورت بین المللی و تحت لیسانس سازمان جهانی کار (International Labor Organization: ILO) می باشد. این مدارک بین المللی در 187 کشور عضو سازمان جهانی کار از قبیل کشورهای پیشرفته مانند آمریکا، کانادا، فرانسه، انگلیس و استرالیا مورد پذیرش و معتبر می باشد. جهت اطلاعات بیشتر در مورد سازمان جهانی کار و کشورهای عضو ان و مدارک بین المللی به این لینک مراجعه فرمایید.
+آموزشگاه  افق مهر با بهره گیری از روشهای نوین و مبتکرانه درصدد آموزش زبان آموزان با بالاترین کیفیت آموزشی و صرف کمترین هزینه و زمان می‌باشد. آموزشگاه افق مهر با بکارگیری توان مدیریتی و علمی مربیان خلاق و با تجربه همواره برآن است تا آموزش صحیح و کاربردی در تمام رده های سنی (از خردسال تا بزرگسال) را سرلوحه‌ی اهداف خود قرار دهد.

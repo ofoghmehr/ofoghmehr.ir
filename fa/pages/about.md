@@ -9,20 +9,23 @@ subclass: post page
 permalink: "/fa/about"
 
 ---
-                                                            ساعت کارآموزشگاه 8:30 الی20:30  
-    
-                                                                                     آدرس آموزشگاه
-    
-                              شعبه خ امام خمینی بین خ قصرالدشت وکارون کوچه فردوسی پ1                                                                                           
-    
-                                                                                         شعبه اکباتان
-    
-    فاز 1سه راه مخابرات خ ورزش مجموعه فرهنگی ورزشی پاس قوامین موسسه افق مهر                                                                        
 
-ایمیل instituteofoghemehr@gmail.com
+_Ofogh-e-mehr is a registered English Language Institute which started its activity in 2009. The institute provides classes for a variety of age groups from young children to adults. The final goal of the institute is preparing students for international exams like IELTS, TOEFL etc. To this end, the institute has always strived to employ professional experienced teachers._
 
-تلفن شعبه اکباتان44649619
+ساعت کارآموزشگاه 8:30 الی20:30  
 
-تلفن شعبه خ امام خمینی 66859072
+شعبه 1 : امام خمینی بین قصرالدشت و کارون نبش کوچه فردوسی پلاک 1: 66859072
 
-09303520748
+شعبه2 : اکبان فاز 1 سه راه مخابرات خیابان ورزش مجموعه فرهنگی ورزش پاس قوامین آموزشگاه زبان افق مهر 44649619
+
+شعبه 3: اتوبان بابایی، بلوار نیروی زمینی، شهرک قرنی، مجتمع فرهنگی 22463551
+
+شعبه 4: اتوبان بابایی، روبه رو شهرک کوثر، شهرک شهید رسولی 22936962
+
+شماره تلگرام: 09303520748
+
+ایمیل: instituteofoghemehr@gmail.com
+
+اینستاگرام: www.instagram.com/ofoghemehrinstitute/
+
+                                                

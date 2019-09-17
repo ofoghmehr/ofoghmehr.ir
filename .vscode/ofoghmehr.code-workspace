@@ -7,7 +7,8 @@
 			"css",
 			"sass",
 			"scss",
-			"html"
+			"html",
+			"svg"
 		],
 		"colorize.colorized_variables": [
 			"SASS"

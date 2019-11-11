@@ -19,7 +19,7 @@ permalink: /en/articles
 
         <div class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-            {% assign posts = site.posts | where: "category", "articles" %}
+            {% assign posts = site.posts | where: "category", "articles"| where: "lang", page.lang | sort:"date" | reverse %}
             {% for post in posts %}
             <article class="post-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
                 {% if post.cover %}

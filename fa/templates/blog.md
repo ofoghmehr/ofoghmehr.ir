@@ -42,7 +42,7 @@ into the {body} of the default.hbs template -->
 
         <div class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-            {% assign posts = site.posts | where: "category", "blog" %}
+            {% assign posts = site.posts | where: "category", "blog"| where: "lang", page.lang | sort:"date" | reverse %}
             {% for post in posts %}
                 <article class="post-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
                     {% if post.cover %}

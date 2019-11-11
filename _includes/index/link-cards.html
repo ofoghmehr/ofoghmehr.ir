@@ -5,7 +5,7 @@
     <div class="index-feed">
         <article class="indx-card" id="courses-ielts">
 
-            <a class="post-card-image-link" href="/IELTS">
+            <a class="post-card-image-link" href="/{{ page.lang }}/IELTS">
                 <div class="post-card-image" style="background-image: url(/assets/images/posts/IELTS.jpg); background-size: 100% 100%;"></div>
             </a>
 
@@ -16,17 +16,17 @@
                     </header>
                     <section class="post-card-excerpt">
                         <p>
-                            <a href="/IELTS">{{ site.data.languages[page.lang]["courses"]["ielts"]["info"] }}</a>
+                            <a href="/{{ page.lang }}/IELTS">{{ site.data.languages[page.lang]["courses"]["ielts"]["info"] }}</a>
                         </p>
                         <p>
-                            <a href="/register">{{ site.data.languages[page.lang]["courses"]["ielts"]["register"] }}</a>
+                            <a href="/{{ page.lang }}/courses/IELTS">{{ site.data.languages[page.lang]["courses"]["ielts"]["register"] }}</a>
                         </p>
                     </section>
                 </div>
             </div>
         </article>
         <article class="indx-card no-image" id="courses-exams">
-            <a class="post-card-image-link" href="{{ post.url }}">
+            <a class="post-card-image-link" >
                 <div class="post-card-image" style="background-image: url(/assets/images/posts/test.jpg)"></div>
             </a>
             <div class="post-card-content">
@@ -36,13 +36,13 @@
                     </header>
                     <section class="post-card-excerpt">
                         <p>
-                            <a href="/courses/کلاس-های-آمادگی-برای-آزمون-های-ielts-pte-toefl">{{ site.data.languages[page.lang]["courses"]["intl-exams"]["PTE"] }}</a>
+                            <a href="/{{ page.lang }}/courses/PTE">{{ site.data.languages[page.lang]["courses"]["intl-exams"]["PTE"] }}</a>
                         </p>
                         <p>
-                            <a href="/courses/ept-msrt">{{ site.data.languages[page.lang]["courses"]["intl-exams"]["EPT-MSRT"] }}</a>
+                            <a href="/{{ page.lang }}/courses/EPT-MSRT">{{ site.data.languages[page.lang]["courses"]["intl-exams"]["EPT-MSRT"] }}</a>
                         </p>
                         <p>
-                            <a href="/courses/">{{ site.data.languages[page.lang]["courses"]["intl-exams"]["TOEFL"] }}</a>
+                            <a href="/{{ page.lang }}/courses/TOEFL">{{ site.data.languages[page.lang]["courses"]["intl-exams"]["TOEFL"] }}</a>
                         </p>
                     </section>
                 </div>
@@ -51,7 +51,7 @@
 
         <article class="indx-card no-image" id="courses-BEC">
 
-            <a class="post-card-image-link" href="/courses/Business-English">
+            <a class="post-card-image-link">
                 <div class="post-card-image" style="background-image: url(/assets/images/posts/BEC.jpg)"></div>
             </a>
 
@@ -62,7 +62,7 @@
                     </header>
                     <section class="post-card-excerpt">
                         <p>
-                            <a href="/courses/Business-English">{{ site.data.languages[page.lang]["courses"]["commerce"]["desc"] }}</a>
+                            <a href="/{{ page.lang }}/courses/Business-English">{{ site.data.languages[page.lang]["courses"]["commerce"]["desc"] }}</a>
                         </p>
                     </section>
                 </div>
@@ -77,22 +77,22 @@
                     <section class="post-card-excerpt">
 
                         <p>
-                            <a href="/courses/ربان-های-غیرانگلیسی">
+                            <a href="/{{ page.lang }}/courses/English">
                                 <i class="em em-flag-england"></i>
                                 {{ site.data.languages[page.lang]["courses"]["foreign"]["english"] }}</a>
                         </p>
                         <p>
-                            <a href="/courses/ربان-های-غیرانگلیسی">
+                            <a href="/{{ page.lang }}/courses/French">
                                 <i class="em em-fr"></i>
                                 {{ site.data.languages[page.lang]["courses"]["foreign"]["french"] }}</a>
                         </p>
                         <p>
-                            <a href="/courses/ربان-های-غیرانگلیسی">
+                            <a href="/{{ page.lang }}/courses/German">
                                 <i class="em em-de"></i>
                                 {{ site.data.languages[page.lang]["courses"]["foreign"]["german"] }}</a>
                         </p>
                         <p>
-                            <a href="/courses/ربان-های-غیرانگلیسی">
+                            <a href="/{{ page.lang }}/courses/Turkish">
                                 <i class="em em-flag-tr"></i>
                                 {{ site.data.languages[page.lang]["courses"]["foreign"]["turkish"] }}</a>
                         </p>
@@ -118,7 +118,7 @@
         </article>
         {%- comment -%} 		<article class="indx-card">
 
-			<a class="post-card-image-link" href="{{ post.url }}">
+			<a class="post-card-image-link">
 				<div class="post-card-image" style="background-image: url(/assets/images/posts/mockpic.jpg)"></div>
 			</a>
 

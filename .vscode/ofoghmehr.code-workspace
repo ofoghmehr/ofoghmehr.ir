@@ -1,7 +1,9 @@
 {
-	"folders": [{
-		"path": "/home/mohsen/Desktop/Projects/web/ofoghmehr.ir"
-	}],
+	"folders": [
+		{
+			"path": "C:\\Users\\Mohsen\\Desktop\\Projects\\Development\\web\\ofoghmehr.ir"
+		}
+	],
 	"settings": {
 		"colorize.languages": [
 			"css",

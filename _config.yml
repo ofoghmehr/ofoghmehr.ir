@@ -198,3 +198,5 @@ defaults:
       permalink: /fa/multimedia/:title
       category: multimedia
       catname: چند‌رسانه‌ای
+      
+encoding: utf-8

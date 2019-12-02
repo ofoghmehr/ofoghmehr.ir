@@ -1,7 +1,7 @@
 ---
 title: " English  مکالمه انگلیسی خردسالان "
 date: 2019-09-01T19:30:00.000+00:00
-cover: ''
+cover: "/assets/images/posts/pockets-1.jpg"
 tags: []
 
 ---

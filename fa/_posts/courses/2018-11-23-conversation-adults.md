@@ -2,7 +2,7 @@
 title: " English مکالمه انگلیسی بزرگسالان "
 author: " "
 date: 2018-11-23T12:51:36.000+00:00
-cover: "/assets/images/posts/New-Course.png"
+cover: "/assets/images/posts/4a225d1b635f0d45b1feb0530b83a46f.jpg"
 tags:
 - courses
 

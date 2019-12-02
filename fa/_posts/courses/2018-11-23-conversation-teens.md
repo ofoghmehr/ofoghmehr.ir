@@ -2,7 +2,7 @@
 title: 'English مکالمه انگلیسی کودکان نوجوانان  '
 author: ''
 date: 2019-11-30 20:30:00 +0000
-cover: "/assets/images/posts/Untitled-2.png"
+cover: "/assets/images/posts/first and family.png"
 tags:
 - courses
 

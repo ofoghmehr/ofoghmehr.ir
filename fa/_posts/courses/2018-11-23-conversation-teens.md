@@ -1,5 +1,5 @@
 ---
-title: مکالمه انگلیسی کودکان نوجوانان  ENGLISH
+title: 'English مکالمه انگلیسی کودکان نوجوانان  '
 author: ''
 date: 2018-11-23T12:07:34.000+00:00
 cover: "/assets/images/posts/New-Course.png"

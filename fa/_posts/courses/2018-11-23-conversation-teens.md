@@ -5,7 +5,7 @@ date: 2019-11-30 20:30:00 +0000
 cover: "/assets/images/posts/first and family.png"
 tags:
 - courses
-
+course: English
 ---
 معرفی دوره های کوکان و نوجوانان
 

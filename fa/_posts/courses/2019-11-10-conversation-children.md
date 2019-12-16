@@ -3,7 +3,7 @@ title: " English  مکالمه انگلیسی خردسالان "
 date: 2019-12-01 20:30:00 +0000
 cover: "/assets/images/posts/pockets-1.jpg"
 tags: []
-
+course: English
 ---
 **آموزش مکالمه انگلیسی ویژه خردسالان 3-6 سال در آموزشگاه زبان افق مهر**
 

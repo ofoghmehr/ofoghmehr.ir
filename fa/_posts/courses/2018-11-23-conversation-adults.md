@@ -2,10 +2,10 @@
 title: " English مکالمه انگلیسی بزرگسالان "
 author: " "
 date: 2019-11-30 12:51:36 +0000
-cover: "/assets/images/posts/4a225d1b635f0d45b1feb0530b83a46f.jpg"
+cover: "/assets/images/posts/american-english.jpg"
 tags:
 - courses
-
+course: English
 ---
 معرفی کتاب های American English File:
 

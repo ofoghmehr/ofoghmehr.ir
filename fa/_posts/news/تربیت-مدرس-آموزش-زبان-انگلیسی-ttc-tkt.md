@@ -1,6 +1,6 @@
 ---
 title: تربیت مدرس آموزش زبان انگلیسی TTC , TKT
-date: 2019-12-15 20:30:00 +0000
+date: 2019-12-13 20:30:00 +0000
 cover: "/assets/images/posts/photo_2019-12-16_15-39-32.jpg"
 tags: []
 published: false

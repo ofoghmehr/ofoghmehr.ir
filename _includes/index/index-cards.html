@@ -1,14 +1,12 @@
 <div>
-  <h2 class="index-title">
-    {{ site.data.languages[page.lang]["index"]["news"] }}
-  </h2>
+    <h2 class="index-title">
+        {{ site.data.languages[page.lang]["index"]["news"] }}
+    </h2>
 
-  <div class="index-feed">
-
-    {%- include index/news-slider.html -%}
-    {%- include index/podcast-card.html -%}
-
-  </div>
+    <div class="index-feed">
+        {%- include index/news-slider.html -%}
+        {%- include index/podcast-card.html -%}
+    </div>
 </div>
 
 
@@ -18,16 +16,19 @@
     <p> تاریخ ماک بعدی آیلتس : ۲۲ بهمن</p>
 </div>  -->
 <div>
-  <h2 class="index-title">
-    {{ site.data.languages[page.lang]["index"]["writings"] }}
-  </h2>
-  <div class="index-feed">
-    {%- include index/article-cards.html -%}
-  </div>
+    <h2 class="index-title">
+        {{ site.data.languages[page.lang]["index"]["writings"] }}
+    </h2>
+    <div class="index-feed">
+        {%- include index/article-cards.html -%}
+    </div>
 </div>
-{%- comment -%} <div>
-  <h2 class="index-title">دوره‌های ویژه</h2>
-  <div class="index-feed">
-    {%- include index/offcanvas-cards.html -%}
-  </div>
-</div> {%- endcomment -%}
+{%- comment -%}
+    <div>
+      <h2 class="index-title">دوره‌های ویژه</h2>
+      <div class="index-feed">
+        {%- include index/offcanvas-cards.html -%}
+      </div>
+    </div> 
+    {%- endcomment -%
+{%- endcomment -%}}

@@ -1,0 +1,24 @@
+<div>
+    <h2 class="index-title">{{ site.data.languages[page.lang]["index"]["courses"] }}</h2>
+    <div class="index-feed">
+        <article class="indx-card" id="courses-english">
+            <a class="post-card-image-link" href="/{{ page.lang }}/courses/english">
+                <div class="post-card-image" style="background-image: url(/assets/images/posts/IELTS.jpg); background-size: 100% 100%;"></div>
+            </a>
+
+            <div class="post-card-content">
+                <div class="post-card-content-link">
+                    <header class="post-card-header">
+                        <h2 class="post-card-title">{{ site.data.languages[page.lang]["courses"]["english"]["title"] }}</h2>
+                    </header>
+                    <section class="post-card-excerpt">
+                        <p>
+                            <a href="/{{ page.lang }}/IELTS">{{ site.data.languages[page.lang]["courses"]["english"]["info"] }}</a>
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</div>

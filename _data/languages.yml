@@ -92,6 +92,9 @@ fa:
     copyright: "تمامی حقوق برای افق مهر محفوظ است"
     developedBy: "طراحی و توسعه توسط محسن خانپور"
   courses:
+    english:
+      title: "دوره‌های انگلیسی"
+      info: "اطلاعات بیشتر"
     foreign:
       title: "زبان‌های خارجی"
       english: "انگلیسی"

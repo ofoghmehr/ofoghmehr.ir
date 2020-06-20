@@ -1,11 +1,12 @@
 ---
-title: " English مکالمه انگلیسی بزرگسالان "
+title: " English مکالمه انگلیسی بزرگسالان (حضوری و مچازی)"
 author: " "
-date: 2019-11-30 12:51:36 +0000
+date: 2019-11-30T12:51:36.000+00:00
 cover: "/assets/images/posts/american-english.jpg"
 tags:
 - courses
 course: English
+
 ---
 معرفی کتاب های American English File:
 

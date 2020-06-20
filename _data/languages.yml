@@ -18,6 +18,7 @@ en:
     articles: "Articles"
     courses: "Courses"
     writings: "Writings"
+    gallery: "Gallery"
   noticeboard:
     title: "Noticeboard"
     careers: "Careers"
@@ -77,6 +78,7 @@ fa:
     articles: "مقالات"
     courses: "دوره‌های ویژه"
     writings: "نوشته‌ها"
+    gallery: "گالری"
   noticeboard:
     title: "اعلانات"
     careers: "همکاری"

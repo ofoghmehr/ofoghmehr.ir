@@ -32,3 +32,14 @@
 </div>
 
 {%- endcomment -%}
+
+<div>
+    <h2 class="index-title">
+        {{ site.data.languages[page.lang]["index"]["gallery"] }}
+    </h2>
+
+    <div class="index-feed">
+        {%- include index/gallery-slider.html -%}
+        <!--   {%- include index/podcast-card.html -%} -->
+    </div>
+</div>

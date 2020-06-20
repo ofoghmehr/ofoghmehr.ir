@@ -1,5 +1,5 @@
 ---
-title: " English مکالمه انگلیسی بزرگسالان (حضوری و مچازی)"
+title: " English مکالمه انگلیسی بزرگسالان- به صورت حضوری و مجازی"
 author: " "
 date: 2019-11-30T12:51:36.000+00:00
 cover: "/assets/images/posts/american-english.jpg"

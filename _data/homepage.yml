@@ -1,5 +1,9 @@
 ---
-mockdate: 2020-01-19 20:30:00 +0000
+mockdate: ''
 banner: false
-placementdate: 2019-12-17 20:30:00 +0000
-bannertext: '1. '
+placementdate: ''
+bannertext: ''
+title: ''
+date: 
+cover: ''
+tags: []

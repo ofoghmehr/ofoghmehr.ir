@@ -7,7 +7,7 @@ timezone: Asia/Tehran
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: ""
 url: https://ofoghmehr.ir/
-
+lsi: false
 # Website info
 title: Ofogh Mehr
 description: English School

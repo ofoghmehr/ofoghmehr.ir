@@ -12,3 +12,4 @@ gem "tzinfo"
 gem "tzinfo-data"
 gem 'jekyll-autoprefixer'
 gem 'jekyll-seo-tag'
+gem "kramdown"

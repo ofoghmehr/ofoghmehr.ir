@@ -3,7 +3,7 @@ layout: page
 current: placement
 class: page-template
 navigation: true
-permalink: "fa//placement"
+permalink: "en/placement"
 
 ---
 

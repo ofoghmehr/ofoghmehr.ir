@@ -74,12 +74,7 @@ exclude:
   - README.md
   - changelog.md
   - .git*
-  - _image_optim_cache.yml
 
-image_optim:
-  archive_dir: "archive/files/"
-  cache_file: "_image_optim_cache.yml"
-  image_glob: "assets/images/**/**.{gif,png,jpg,jpeg}"
 
 sass:
   style: compressed

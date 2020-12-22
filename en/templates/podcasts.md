@@ -3,7 +3,7 @@ layout: page
 current: podcasts
 class: page-template
 navigation: true
-permalink: "/fa/podcasts"
+permalink: "/en/podcasts"
 
 ---
 ## پادکست‌ها

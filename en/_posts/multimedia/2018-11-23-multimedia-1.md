@@ -1,5 +1,5 @@
 ---
-title: Simone de Beauvoir Quote
+title: همکاری با مدارس
 author: ''
 date: 2018-12-15 12:18:40 +0000
 cover: '/assets/images/posts/quote.jpg'

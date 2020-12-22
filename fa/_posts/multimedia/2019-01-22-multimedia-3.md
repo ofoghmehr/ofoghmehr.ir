@@ -1,7 +1,7 @@
 ---
 title: یلدا 1399 در آموزشگاه زبان افق مهر 
 date: 2020-12-20
-cover: "/assets/images/posts/multimedia-yalda"
+cover: "/assets/images/posts/multimedia-yalda.jpeg"
 ---
 
 جشن یلدا 1399

@@ -35,6 +35,9 @@ en:
     copyright: "All rights reserved by Ofogh Mehr 2019"
     developedBy: "Developed by Mohsen Khanpour"
   courses:
+    info: "More info"
+    english:
+      title: "English Courses"
     foreign:
       title: "Foreign Languages"
       english: "English"

@@ -1,9 +1,6 @@
 _site
-.sass-cache/
-.asset-cache/
-archive/
-node_modules/
-yarn-error.log
-yarn.lock
-_image_optim_cache.yml
 .jekyll-cache
+_archive_image_optim
+_image_optim_cache.yml
+
+

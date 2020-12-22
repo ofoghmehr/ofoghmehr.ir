@@ -1,8 +1,7 @@
 ---
-title: 'English مکالمه انگلیسی کودکان نوجوانان  '
-author: ''
-date: 2019-11-30 20:30:00 +0000
-cover: "/assets/images/posts/first and family.png"
+title: 'English مکالمه انگلیسی کودکان نوجوانان'
+date: 2019-11-30
+cover: "/assets/images/posts/courses-teens.png"
 tags:
 - courses
 course: English

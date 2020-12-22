@@ -62,19 +62,19 @@ destination: _site
 port: 4002
 
 exclude:
-  - archive
-  - node_modules/
   - vendor
   - Gemfile
   - Gemfile.lock
-  - GHOST.txt
-  - gulpfile.js
   - LICENSE
-  - package.json
   - README.md
-  - changelog.md
   - .git*
+  - _archive_image_optim
+  - _image_optim_cache.yml
 
+image_optim:
+  archive_dir: "_archive_image_optim/"
+  cache_file: "_image_optim_cache.yml"
+  image_glob: "assets/images/**/**.{gif,png,jpg,jpeg}"
 
 sass:
   style: compressed

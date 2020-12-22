@@ -1,7 +1,7 @@
 ---
 title: آموزش مجازی زبان ترکی استانبولی/ آموزش آنلاین زبان ترکی استانبولی
 date: 2020-05-11 20:30:00 +0000
-cover: "/assets/images/posts/WhatsApp Image 2020-01-21 at 11.02.26.jpeg"
+cover: "/assets/images/posts/news-turkish.jpeg"
 tags: []
 
 ---

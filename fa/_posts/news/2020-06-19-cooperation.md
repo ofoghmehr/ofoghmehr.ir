@@ -1,9 +1,8 @@
 ---
 title: همکاری با موسسات، شرکت ها و مدارس
 date: 2020-06-19 19:30:00 +0000
-cover: "/assets/images/posts/758904e8-27af-4ae9-a81d-7065e38ab13a.jpg"
+cover: "/assets/images/posts/news-cooperation.jpg"
 tags: []
-
 ---
 ## **ازهمکاری با موسسات، شرکت ها و مدارس**
 

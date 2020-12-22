@@ -36,7 +36,7 @@ logo: 'assets/images/ghost.png'
                     post{% else %}{{ paginator.total_posts }} posts{% endif %} <span class="bull">&bull;</span>
                 </div>
                 {% if author[1].url %}
-                <a class="social-link social-link-wb" href="{{ author[1].url_full }}" target="_blank"
+                <a class="social-link social-link-wb" href="{{ author[1].url }}" target="_blank"
                     rel="noopener">{% include svg/website.html %}</a>
                 {% endif %}
                 {% if author[1].twitter %}

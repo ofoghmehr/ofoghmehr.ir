@@ -1,12 +1,10 @@
 ---
-title: " English مکالمه انگلیسی بزرگسالان- به صورت حضوری و مجازی"
-author: " "
-date: 2019-11-30T12:51:36.000+00:00
-cover: "/assets/images/posts/american-english.jpg"
+title: "English مکالمه انگلیسی بزرگسالان- به صورت حضوری و مجازی"
+date: 2019-11-30
+cover: "/assets/images/posts/courses-english.jpg"
 tags:
 - courses
 course: English
-
 ---
 معرفی کتاب های American English File:
 

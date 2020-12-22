@@ -1,7 +1,7 @@
 ---
-title: مکالمه انگلیسی خردسالان
-date: 2019-09-01 19:30:00 +0000
-cover: ''
+title: " English  مکالمه انگلیسی خردسالان "
+date: 2019-12-01
+cover: "/assets/images/posts/courses-kids.jpg"
 tags: []
 course: English
 ---

@@ -1,8 +1,7 @@
 ---
-title: مکالمه انگلیسی بزرگسالان
-author: " "
-date: 2018-11-23T12:51:36.000+00:00
-cover: "/assets/images/posts/New-Course.png"
+title: "English مکالمه انگلیسی بزرگسالان- به صورت حضوری و مجازی"
+date: 2019-11-30
+cover: "/assets/images/posts/courses-english.jpg"
 tags:
 - courses
 course: English

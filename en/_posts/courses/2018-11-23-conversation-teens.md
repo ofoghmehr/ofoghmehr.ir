@@ -1,8 +1,7 @@
 ---
-title: 'مکالمه انگلیسی کودکان نوجوانان '
-author: ''
-date: 2018-11-23T12:07:34.000+00:00
-cover: "/assets/images/posts/New-Course.png"
+title: 'English مکالمه انگلیسی کودکان نوجوانان'
+date: 2019-11-30
+cover: "/assets/images/posts/courses-teens.png"
 tags:
 - courses
 course: English
@@ -24,5 +23,3 @@ Family and Friends
 First Friends
 
 کتاب های کودکان، فرست فرندز، در سه جلد با سن و روحیه کودکان طراحی شده است. کلاس ها همراه با بازی فلش کارت، فیلم و کتاب جانبی مختص افق مهر اداره میگردد. والدینی که علاقمند به یادگیری زبان فرزندشان هستند از این کلاس ها لذت خواهند برد.
-
- 

@@ -1,6 +1,6 @@
 ---
 title: "   متن انگلیسی تبریک شب یلدا با معنی فارسی Yalda Night "
-date: 2020-12-21 20:30:00 +0000
+date: 2020-12-22 20:30:00 +0000
 cover: "/assets/images/posts/multimedia-yalda.jpeg"
 tags: []
 

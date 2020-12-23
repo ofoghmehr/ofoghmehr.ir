@@ -1,5 +1,5 @@
 ---
-title: 'متن انگلیسی شب یلدا Yalda Night '
+title: " 2 متن انگلیسی شب یلدا Yalda Night "
 date: 2020-12-22 20:30:00 +0000
 cover: "/assets/images/posts/multimedia-yalda3.jpg"
 tags: []

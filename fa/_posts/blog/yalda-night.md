@@ -1,7 +1,7 @@
 ---
 title: 'متن شب یلدا Yalda Night '
 date: 2020-12-19 20:30:00 +0000
-cover: ''
+cover: "/assets/images/posts/41ea3988-e51a-4b46-a45d-8ce71b53b4c4.jpg"
 tags: []
 
 ---
@@ -12,3 +12,7 @@ Shab-e-Yalda (Yalda Night) also known as Shab-e Chelleh is one of the most ancie
 ### How is this night celebrated in Iran?
 
 Eating is a delicious part of Yalda Night. Iranians eat nuts, watermelons, and pomegranates on this special night and share the last remaining fruits from summer together. Fruits of Shab-e-Yalda have symbolic significance as well. Some believe that watermelon symbolizes the sun by its spherical shape while others believe that eating watermelon keeps one safe from being hurt by winter diseases. Pomegranate is also a symbol of birth and its bright red seeds symbolize the glow of life.
+
+آموزشگاه زبان های خارجی افق مهر برترین و بهترین آموزشگاه زبان درمنطقه 10 می باشد. خیابان امام خمینی بین قصرالدشت و کارون کوچه فردوسی آموزشگاه زبان افق مهر 66859072
+
+آموزشگاه زبان های خارجی افق مهر برترین و بهترین آموزشگاه زبان درمنطقه اکباتان می باشد. 09303520748

@@ -22,9 +22,5 @@ fields:
   hidden: false
   default: ''
 pages:
-- _data/homepage.yml
 - fa/_posts/blog/2019-02-10-blog-post-1.md
 - fa/_posts/blog/2019-02-11-blog-post-2.md
-- fa/_posts/blog/اشتباهات-رایج-در-زبان-انگلیسی3.md
-- fa/_posts/news/آموزش-مجازی-زبان-ترکی-استانبولی-آموزش-آنلاین-زبان-ترکی-استانبولی.md
-- fa/_posts/news/همکاری-با-مدارس.md

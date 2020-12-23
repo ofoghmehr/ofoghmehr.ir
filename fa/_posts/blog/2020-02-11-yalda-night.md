@@ -1,7 +1,7 @@
 ---
 title: متن انگلیسی شب یلدا  Yalda Night
 date: 2020-12-21 20:30:00 +0000
-cover: "/assets/images/posts/41ea3988-e51a-4b46-a45d-8ce71b53b4c4.jpg"
+cover: "/assets/images/posts/multimedia-yalda2.jpg"
 tags: []
 
 ---

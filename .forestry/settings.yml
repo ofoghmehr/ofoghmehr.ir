@@ -16,9 +16,6 @@ sections:
   match: "{pages,_posts}/**/*"
   templates:
   - default
-- type: document
-  path: _data/homepage.yml
-  label: Home Page
 upload_dir: assets/images/posts
 public_path: "/assets/images/posts"
 front_matter_path: ''

@@ -1,7 +1,7 @@
 ---
 title: متن ساده انگلیسی در مورد نوروز Noruz
 date: 2021-01-09 20:30:00 +0000
-cover: "/assets/images/posts/20190313_154449.jpg"
+cover: "/assets/images/posts/multimedia_noruz.jpg"
 tags: []
 
 ---

@@ -1,10 +1,10 @@
 ---
-title: لغات انگلیسی مسیرها با معنی directions
+title: "لغات انگلیسی مسیرها با معنی directions"
 date: 2021-01-19 20:30:00 +0000
 cover: "/assets/images/posts/blogs-directons.jpg"
 tags: []
-
 ---
+
 لغات انگلیسی مرتبط با مسیرها با معنی فارسی 
 
 Words connected with road travel and directions. 

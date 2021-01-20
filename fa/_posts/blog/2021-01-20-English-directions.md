@@ -1,7 +1,7 @@
 ---
 title: لغات انگلیسی مسیرها با معنی directions
-date: 
-cover: ''
+date: 2021-01-19 20:30:00 +0000
+cover: "/assets/images/posts/blogs-directons.jpg"
 tags: []
 
 ---

@@ -22,11 +22,11 @@ fields:
   hidden: false
   default: ''
 pages:
-- fa/_posts/blog/2.md
 - fa/_posts/blog/2019-02-10-blog-post-1.md
 - fa/_posts/blog/2019-02-11-blog-post-2.md
 - fa/_posts/blog/2021-01-15-turkish-animals.md
 - fa/_posts/blog/2021-01-15-turkish-organs.md
+- fa/_posts/blog/2021-01-16-turkish-common verbs.md
 - fa/_posts/blog/2021-01-16-turkish-places.md
 - fa/_posts/blog/2021-01-16-turkish-relationship.md
 - fa/_posts/blog/2021-01-20-English-directions.md

@@ -9,11 +9,11 @@ Before going to the airport
 
 قبل از رفتن به فرودگاه
 
-Narrator: They are going on vacation. 
+Narrator: They are going on vacation.
 
 راوی: آنها به تعطیلات می روند.
 
-Narrator: They are going to travel by plane. 
+Narrator: They are going to travel by plane.
 
 راوی: آنها قصد سفر با هواپیما را دارند.
 
@@ -21,15 +21,15 @@ Narrator: They are packing their bags.
 
 راوی: آنها در حال بسته بندی چمدان های خود هستند.
 
-Narrator: Sara is very excited. 
+Narrator: Sara is very excited.
 
 گوینده: سارا بسیار هیجان زده است.
 
 Sara: I can’t wait to be in the plane.
 
-سارا: من نمی توانم صبر کنم تا در هواپیما باشم.
+سارا: من خیلی مشتاقم.
 
-Mother: the taxi is here. Let’s go! 
+Mother: the taxi is here. Let’s go!
 
 مادر: تاکسی اینجاست. بیا بریم!
 
@@ -57,11 +57,11 @@ Taxi driver: Yes, sure.
 
 راننده تاکسی: بله ، حتما.
 
-Taxi driver: here we are. That’ll be $80.50, please. 
+Taxi driver: here we are. That’ll be $80.50, please.
 
 راننده تاکسی: اینجا هستیم. لطفاً 80.50 دلار خواهد بود.
 
-Father: Thanks for the ride. Keep the change. 
+Father: Thanks for the ride. Keep the change.
 
 پدر: با تشکر از سواری شما. نگه داشتن تغییر.
 

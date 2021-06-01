@@ -35,7 +35,7 @@ Mother: the taxi is here. Let’s go!
 
 Taxi driver:  I’ll put your bags in the truck for you.
 
-راننده تاکسی: کیف هایت را برایت در کامیون می گذارم.
+راننده تاکسی: کیف هایت را برایت در صندوق عقب می گذارم.
 
 Father: thank you very much!
 
@@ -51,7 +51,7 @@ Father: to the airport, please.
 
 Father: can you drop us off near the entrance?
 
-پدر: آیا می توانی ما را در ورودی نزدیک کنی؟
+پدر: آیا می توانی ما را در ورودی پیاده کنی؟
 
 Taxi driver: Yes, sure.
 
@@ -59,11 +59,11 @@ Taxi driver: Yes, sure.
 
 Taxi driver: here we are. That’ll be $80.50, please.
 
-راننده تاکسی: اینجا هستیم. لطفاً 80.50 دلار خواهد بود.
+راننده تاکسی: اینجا هست. لطفاً 80.50 دلار خواهد بود.
 
 Father: Thanks for the ride. Keep the change.
 
-پدر: با تشکر از سواری شما. نگه داشتن تغییر.
+پدر: با تشکر از رانندگی شما. بقیه پول برای شما.
 
 Taxi driver: thank you. Have a nice flight.
 

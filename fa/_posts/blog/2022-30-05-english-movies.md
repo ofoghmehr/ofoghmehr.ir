@@ -1,7 +1,7 @@
 ---
 title: کلمات مرتبط با فیلم و سینما
 date: 2022-05-29 19:30:00 +0000
-cover: ''
+cover: "/assets/images/posts/movie-genres-types-of-movies-list-of-genres-and-categories-header-studiobinder.jpg"
 tags: []
 
 ---

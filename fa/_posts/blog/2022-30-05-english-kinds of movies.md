@@ -1,7 +1,7 @@
 ---
 title: ژانر ها و دسته بندی فیلم ها
 date: 2022-05-29 19:30:00 +0000
-cover: ''
+cover: "/assets/images/posts/popular-film-genres-4-800x432.jpg"
 tags: []
 
 ---
